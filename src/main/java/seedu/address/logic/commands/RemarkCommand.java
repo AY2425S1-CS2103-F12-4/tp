@@ -6,7 +6,7 @@ import static seedu.address.model.Model.PREDICATE_SHOW_ALL_PERSONS;
 
 import java.util.List;
 import seedu.address.commons.core.index.Index;
-import seedu.address.logic.Messages;
+import seedu.address.commons.core.Messages;
 import seedu.address.model.Model;
 import seedu.address.logic.commands.exceptions.CommandException;
 import seedu.address.model.person.Person;
@@ -17,8 +17,6 @@ import seedu.address.model.person.Remark;
  * Changes the remark of an existing person in the address book.
  */
 public class RemarkCommand extends Command {
-
-    public static final String MESSAGE_ARGUMENTS = "Index: %1$d, Remark: %2$s";
 
     public static final String COMMAND_WORD = "remark";
     //public static final String MESSAGE_NOT_IMPLEMENTED_YET = "Remark command not implemented yet";
@@ -37,7 +35,6 @@ public class RemarkCommand extends Command {
     private final Index index;
     private final Remark remark;
 
-    public static final String MESSAGE_NOT_IMPLEMENTED_YET = "Remark command not implemented yet";
     /**
      * @param index of the person in the filtered person list to edit the remark
      * @param remark of the person to be updated to
@@ -75,7 +72,7 @@ public class RemarkCommand extends Command {
      */
     private String generateSuccessMessage(Person personToEdit) {
         String message = !remark.value.isEmpty() ? MESSAGE_ADD_REMARK_SUCCESS : MESSAGE_DELETE_REMARK_SUCCESS;
-        return String.format(message, Messages.format(personToEdit));
+        return String.format(message, personToEdit);
     }
 
     @Override
@@ -93,6 +90,5 @@ public class RemarkCommand extends Command {
         return index.equals(e.index)
                 && remark.equals(e.remark);
     }
-
 }
 
