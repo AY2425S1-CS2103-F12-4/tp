@@ -12,8 +12,9 @@ import static seedu.address.testutil.TypicalIndexes.INDEX_SECOND_PERSON;
 import static seedu.address.testutil.TypicalPersons.getTypicalAddressBook;
 
 import org.junit.jupiter.api.Test;
-import seedu.address.commons.core.index.Index;
+
 import seedu.address.commons.core.Messages;
+import seedu.address.commons.core.index.Index;
 import seedu.address.model.AddressBook;
 import seedu.address.model.Model;
 import seedu.address.model.ModelManager;
@@ -24,8 +25,8 @@ import seedu.address.testutil.PersonBuilder;
 
 public class RemarkCommandTest {
 
-    private static final String REMARK_STUB = "Some remark";
     public static final String MESSAGE_ARGUMENTS = "Index: %1$d, Remark: %2$s";
+    private static final String REMARK_STUB = "Some remark";
 
     private Model model = new ModelManager(getTypicalAddressBook(), new UserPrefs());
 
