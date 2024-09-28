@@ -1,8 +1,12 @@
 package seedu.address.model.person;
 
 import static java.util.Objects.requireNonNull;
-import static seedu.address.commons.util.AppUtil.checkArgument;
 
+/**
+ * Represents the Remark attribute of a Person in the address book.
+ * Includes operations like printing in String format, and an equals method to test the equality
+ * of two remarks
+ */
 public class Remark {
 
     public final String value;
