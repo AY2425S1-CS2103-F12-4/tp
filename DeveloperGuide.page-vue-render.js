@@ -1,7 +1,7 @@
 
     var pageVueRenderFn = function anonymous(
 ) {
-with(this){return _c('div',{attrs:{"id":"app"}},[_c('header',{attrs:{"sticky":""}},[_c('navbar',{attrs:{"type":"dark"},scopedSlots:_u([{key:"brand",fn:function(){return [_c('a',{staticClass:"navbar-brand",attrs:{"href":"/tp/index.html","title":"Home"}},[_v("StudentManagerPro")])]},proxy:true},{key:"right",fn:function(){return [_c('li',[_c('form',{staticClass:"navbar-form"},[_c('searchbar',{attrs:{"data":searchData,"placeholder":"Search","on-hit":searchCallback,"menu-align-right":""}})],1)])]},proxy:true}])},[_v(" "),_c('li',[_c('a',{staticClass:"nav-link",attrs:{"href":"/tp/index.html"}},[_v("Home")])]),_v(" "),_c('li',[_c('a',{staticClass:"nav-link",attrs:{"href":"/tp/UserGuide.html"}},[_v("User Guide")])]),_v(" "),_c('li',[_c('a',{staticClass:"nav-link",attrs:{"href":"/tp/DeveloperGuide.html"}},[_v("Developer Guide")])]),_v(" "),_c('li',[_c('a',{staticClass:"nav-link",attrs:{"href":"/tp/AboutUs.html"}},[_v("About Us")])]),_v(" "),_c('li',[_c('a',{staticClass:"nav-link",attrs:{"href":"https://github.com/AY2425S1-CS2103-F12-4/tp","target":"_blank"}},[_c('span',[_c('span',{staticClass:"fab fa-github",attrs:{"aria-hidden":"true"}})])])])])],1),_v(" "),_c('div',{attrs:{"id":"flex-body"}},[_c('overlay-source',{attrs:{"id":"site-nav","tag-name":"nav","to":"site-nav"}},[_c('div',{staticClass:"site-nav-top"},[_c('div',{staticClass:"fw-bold mb-2",staticStyle:{"font-size":"1.25rem"}},[_v("Site Map")])]),_v(" "),_c('div',{staticClass:"nav-component slim-scroll"},[_c('site-nav',[_c('overlay-source',{staticClass:"site-nav-list site-nav-list-root",attrs:{"tag-name":"ul","to":"mb-site-nav"}},[_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-0",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/index.html"}},[_v("Home")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-0",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/UserGuide.html"}},[_v("User Guide")]),_v(" "),_c('div',{staticClass:"site-nav-dropdown-btn-container"},[_c('i',{staticClass:"site-nav-dropdown-btn-icon site-nav-rotate-icon",attrs:{"onclick":"handleSiteNavClick(this.parentNode.parentNode, false); event.stopPropagation();"}},[_c('span',{staticClass:"glyphicon glyphicon-menu-down",attrs:{"aria-hidden":"true"}})])])]),_c('ul',{staticClass:"site-nav-dropdown-container site-nav-dropdown-container-open site-nav-list"},[_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/UserGuide.html#quick-start"}},[_v("Quick Start")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/UserGuide.html#features"}},[_v("Features")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/UserGuide.html#faq"}},[_v("FAQ")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/UserGuide.html#faq"}},[_v("Command Summary")])])])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-0",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html"}},[_v("Developer Guide")]),_v(" "),_c('div',{staticClass:"site-nav-dropdown-btn-container"},[_c('i',{staticClass:"site-nav-dropdown-btn-icon site-nav-rotate-icon",attrs:{"onclick":"handleSiteNavClick(this.parentNode.parentNode, false); event.stopPropagation();"}},[_c('span',{staticClass:"glyphicon glyphicon-menu-down",attrs:{"aria-hidden":"true"}})])])]),_c('ul',{staticClass:"site-nav-dropdown-container site-nav-dropdown-container-open site-nav-list"},[_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#acknowledgements"}},[_v("Acknowledgements")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#setting-up-getting-started"}},[_v("Setting Up")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#design"}},[_v("Design")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#implementation"}},[_v("Implementation")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#documentation-logging-testing-configuration-dev-ops"}},[_v("Documentation, logging, testing, configuration, dev-ops")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#appendix-requirements"}},[_v("Appendix: Requirements")]),_v(" "),_c('div',{staticClass:"site-nav-dropdown-btn-container"},[_c('i',{staticClass:"site-nav-dropdown-btn-icon",attrs:{"onclick":"handleSiteNavClick(this.parentNode.parentNode, false); event.stopPropagation();"}},[_c('span',{staticClass:"glyphicon glyphicon-menu-down",attrs:{"aria-hidden":"true"}})])])]),_c('ul',{staticClass:"site-nav-dropdown-container site-nav-list"},[_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-2",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#product-scope"}},[_v("Product Scope")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-2",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#user-stories"}},[_v("User Stories")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-2",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#use-cases"}},[_v("Use Cases")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-2",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#non-functional-requirements"}},[_v("Non-Functional Requirements")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-2",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#glossary"}},[_v("Glossary")])])])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#appendix-instructions-for-manual-testing"}},[_v("Appendix: Instructions for manual testing")])])])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-0",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/AboutUs.html"}},[_v("About Us")])])])])],1)],1)]),_v(" "),_c('div',{attrs:{"id":"content-wrapper"}},[_m(0),_v(" "),_c('div',{pre:true,attrs:{"class":"page-nav-print d-none d-print-block"}}),_v(" "),_c('hr'),_v(" "),_m(1),_v(" "),_m(2),_v(" "),_c('hr'),_v(" "),_m(3),_v(" "),_m(4),_v(" "),_c('hr'),_v(" "),_m(5),_v(" "),_m(6),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/ArchitectureDiagram.png","width":"280"}}),_v(" "),_m(7),_v(" "),_c('p',[_v("Given below is a quick overview of main components and how they interact with each other.")]),_v(" "),_m(8),_v(" "),_m(9),_v(" "),_m(10),_v(" "),_c('p',[_v("The bulk of the app's work is done by the following four components:")]),_v(" "),_m(11),_v(" "),_m(12),_v(" "),_m(13),_v(" "),_m(14),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/ArchitectureSequenceDiagram.png","width":"574"}}),_v(" "),_c('p',[_v("Each of the four main components (also shown in the diagram above),")]),_v(" "),_m(15),_v(" "),_m(16),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/ComponentManagers.png","width":"300"}}),_v(" "),_c('p',[_v("The sections below give more details of each component.")]),_v(" "),_m(17),_v(" "),_m(18),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UiClassDiagram.png","alt":"Structure of the UI Component"}}),_v(" "),_m(19),_v(" "),_m(20),_v(" "),_m(21),_v(" "),_m(22),_v(" "),_m(23),_v(" "),_m(24),_v(" "),_m(25),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/LogicClassDiagram.png","width":"550"}}),_v(" "),_m(26),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/DeleteSequenceDiagram.png","alt":"Interactions Inside the Logic Component for the `delete 1` Command"}}),_v(" "),_c('box',{attrs:{"type":"info","seamless":""}},[_c('p',[_c('strong',[_v("Note:")]),_v(" The lifeline for "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("DeleteCommandParser")]),_v(" should end at the destroy marker (X) but due to a limitation of PlantUML, the lifeline continues till the end of diagram.")])]),_v(" "),_m(27),_v(" "),_m(28),_v(" "),_m(29),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/ParserClasses.png","width":"600"}}),_v(" "),_c('p',[_v("How the parsing works:")]),_v(" "),_m(30),_v(" "),_m(31),_v(" "),_m(32),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/ModelClassDiagram.png","width":"450"}}),_v(" "),_m(33),_v(" "),_m(34),_v(" "),_c('box',{attrs:{"type":"info","seamless":""}},[_c('p',[_c('strong',[_v("Note:")]),_v(" An alternative (arguably, a more OOP) model is given below. It has a "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Tag")]),_v(" list in the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("AddressBook")]),_v(", which "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Person")]),_v(" references. This allows "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("AddressBook")]),_v(" to only require one "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Tag")]),_v(" object per unique tag, instead of each "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Person")]),_v(" needing their own "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Tag")]),_v(" objects."),_c('br')]),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/BetterModelClassDiagram.png","width":"450"}})],1),_v(" "),_m(35),_v(" "),_m(36),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/StorageClassDiagram.png","width":"550"}}),_v(" "),_m(37),_v(" "),_m(38),_v(" "),_m(39),_v(" "),_m(40),_v(" "),_c('hr'),_v(" "),_m(41),_v(" "),_c('p',[_v("This section describes some noteworthy details on how certain features are implemented.")]),_v(" "),_m(42),_v(" "),_m(43),_v(" "),_m(44),_v(" "),_m(45),_v(" "),_m(46),_v(" "),_c('p',[_v("Given below is an example usage scenario and how the undo/redo mechanism behaves at each step.")]),_v(" "),_m(47),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoRedoState0.png","alt":"UndoRedoState0"}}),_v(" "),_m(48),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoRedoState1.png","alt":"UndoRedoState1"}}),_v(" "),_m(49),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoRedoState2.png","alt":"UndoRedoState2"}}),_v(" "),_c('box',{attrs:{"type":"info","seamless":""}},[_c('p',[_c('strong',[_v("Note:")]),_v(" If a command fails its execution, it will not call "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Model#commitAddressBook()")]),_v(", so the address book state will not be saved into the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addressBookStateList")]),_v(".")])]),_v(" "),_m(50),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoRedoState3.png","alt":"UndoRedoState3"}}),_v(" "),_c('box',{attrs:{"type":"info","seamless":""}},[_c('p',[_c('strong',[_v("Note:")]),_v(" If the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("currentStatePointer")]),_v(" is at index 0, pointing to the initial AddressBook state, then there are no previous AddressBook states to restore. The "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("undo")]),_v(" command uses "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Model#canUndoAddressBook()")]),_v(" to check if this is the case. If so, it will return an error to the user rather\nthan attempting to perform the undo.")])]),_v(" "),_m(51),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoSequenceDiagram-Logic.png","alt":"UndoSequenceDiagram-Logic"}}),_v(" "),_c('box',{attrs:{"type":"info","seamless":""}},[_c('p',[_c('strong',[_v("Note:")]),_v(" The lifeline for "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("UndoCommand")]),_v(" should end at the destroy marker (X) but due to a limitation of PlantUML, the lifeline reaches the end of diagram.")])]),_v(" "),_m(52),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoSequenceDiagram-Model.png","alt":"UndoSequenceDiagram-Model"}}),_v(" "),_m(53),_v(" "),_c('box',{attrs:{"type":"info","seamless":""}},[_c('p',[_c('strong',[_v("Note:")]),_v(" If the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("currentStatePointer")]),_v(" is at index "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addressBookStateList.size() - 1")]),_v(", pointing to the latest address book state, then there are no undone AddressBook states to restore. The "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("redo")]),_v(" command uses "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Model#canRedoAddressBook()")]),_v(" to check if this is the case. If so, it will return an error to the user rather than attempting to perform the redo.")])]),_v(" "),_m(54),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoRedoState4.png","alt":"UndoRedoState4"}}),_v(" "),_m(55),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoRedoState5.png","alt":"UndoRedoState5"}}),_v(" "),_c('p',[_v("The following activity diagram summarizes what happens when a user executes a new command:")]),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/CommitActivityDiagram.png","width":"250"}}),_v(" "),_m(56),_v(" "),_m(57),_v(" "),_m(58),_v(" "),_m(59),_v(" "),_m(60),_v(" "),_m(61),_v(" "),_c('hr'),_v(" "),_m(62),_v(" "),_m(63),_v(" "),_c('hr'),_v(" "),_m(64),_v(" "),_m(65),_v(" "),_m(66),_v(" "),_m(67),_v(" "),_m(68),_v(" "),_m(69),_v(" "),_m(70),_v(" "),_m(71),_m(72),_v(" "),_m(73),_v(" "),_m(74),_v(" "),_m(75),_v(" "),_m(76),_v(" "),_m(77),_v(" "),_m(78),_v(" "),_m(79),_v(" "),_m(80),_v(" "),_m(81),_v(" "),_m(82),_v(" "),_m(83),_v(" "),_c('hr'),_v(" "),_m(84),_v(" "),_c('p',[_v("Given below are instructions to test the app manually.")]),_v(" "),_c('box',{attrs:{"type":"info","seamless":""}},[_c('p',[_c('strong',[_v("Note:")]),_v(" These instructions only provide a starting point for testers to work on;\ntesters are expected to do more "),_c('em',[_v("exploratory")]),_v(" testing.")])]),_v(" "),_m(85),_v(" "),_m(86),_v(" "),_m(87),_v(" "),_m(88),_v(" "),_m(89),_v(" "),_m(90)],1),_v(" "),_c('overlay-source',{attrs:{"id":"page-nav","tag-name":"nav","to":"page-nav"}},[_c('div',{staticClass:"nav-component slim-scroll"},[_c('overlay-source',{staticClass:"nav nav-pills flex-column my-0 small no-flex-wrap",attrs:{"id":"mb-page-nav","tag-name":"nav","to":"mb-page-nav"}},[_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#studentmanagerpro-developer-guide"}},[_v("StudentManagerPro Developer Guide‎")]),_v(" "),_c('nav',{staticClass:"nav nav-pills flex-column my-0 nested no-flex-wrap"},[_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#acknowledgements"}},[_v("Acknowledgements‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#setting-up-getting-started"}},[_v("Setting up, getting started‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#design"}},[_v("Design‎")]),_v(" "),_c('nav',{staticClass:"nav nav-pills flex-column my-0 nested no-flex-wrap"},[_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#architecture"}},[_v("Architecture‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#ui-component"}},[_v("UI component‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#logic-component"}},[_v("Logic component‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#model-component"}},[_v("Model component‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#storage-component"}},[_v("Storage component‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#common-classes"}},[_v("Common classes‎")])]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#implementation"}},[_v("Implementation‎")]),_v(" "),_c('nav',{staticClass:"nav nav-pills flex-column my-0 nested no-flex-wrap"},[_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#proposed-undo-redo-feature"}},[_v("[Proposed] Undo/redo feature‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#proposed-data-archiving"}},[_v("[Proposed] Data archiving‎")])]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#documentation-logging-testing-configuration-dev-ops"}},[_v("Documentation, logging, testing, configuration, dev-ops‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#appendix-requirements"}},[_v("Appendix: Requirements‎")]),_v(" "),_c('nav',{staticClass:"nav nav-pills flex-column my-0 nested no-flex-wrap"},[_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#product-scope"}},[_v("Product scope‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#user-stories"}},[_v("User stories‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#use-cases"}},[_v("Use cases‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#non-functional-requirements"}},[_v("Non-Functional Requirements‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#glossary"}},[_v("Glossary‎")])]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#appendix-instructions-for-manual-testing"}},[_v("Appendix: Instructions for manual testing‎")]),_v(" "),_c('nav',{staticClass:"nav nav-pills flex-column my-0 nested no-flex-wrap"},[_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#launch-and-shutdown"}},[_v("Launch and shutdown‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#deleting-a-person"}},[_v("Deleting a person‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#saving-data"}},[_v("Saving data‎")])])])])],1)]),_v(" "),_c('scroll-top-button')],1),_v(" "),_m(91)])}
+with(this){return _c('div',{attrs:{"id":"app"}},[_c('header',{attrs:{"sticky":""}},[_c('navbar',{attrs:{"type":"dark"},scopedSlots:_u([{key:"brand",fn:function(){return [_c('a',{staticClass:"navbar-brand",attrs:{"href":"/tp/index.html","title":"Home"}},[_v("StudentManagerPro")])]},proxy:true},{key:"right",fn:function(){return [_c('li',[_c('form',{staticClass:"navbar-form"},[_c('searchbar',{attrs:{"data":searchData,"placeholder":"Search","on-hit":searchCallback,"menu-align-right":""}})],1)])]},proxy:true}])},[_v(" "),_c('li',[_c('a',{staticClass:"nav-link",attrs:{"href":"/tp/index.html"}},[_v("Home")])]),_v(" "),_c('li',[_c('a',{staticClass:"nav-link",attrs:{"href":"/tp/UserGuide.html"}},[_v("User Guide")])]),_v(" "),_c('li',[_c('a',{staticClass:"nav-link",attrs:{"href":"/tp/DeveloperGuide.html"}},[_v("Developer Guide")])]),_v(" "),_c('li',[_c('a',{staticClass:"nav-link",attrs:{"href":"/tp/AboutUs.html"}},[_v("About Us")])]),_v(" "),_c('li',[_c('a',{staticClass:"nav-link",attrs:{"href":"https://github.com/AY2425S1-CS2103-F12-4/tp","target":"_blank"}},[_c('span',[_c('span',{staticClass:"fab fa-github",attrs:{"aria-hidden":"true"}})])])])])],1),_v(" "),_c('div',{attrs:{"id":"flex-body"}},[_c('overlay-source',{attrs:{"id":"site-nav","tag-name":"nav","to":"site-nav"}},[_c('div',{staticClass:"site-nav-top"},[_c('div',{staticClass:"fw-bold mb-2",staticStyle:{"font-size":"1.25rem"}},[_v("Site Map")])]),_v(" "),_c('div',{staticClass:"nav-component slim-scroll"},[_c('site-nav',[_c('overlay-source',{staticClass:"site-nav-list site-nav-list-root",attrs:{"tag-name":"ul","to":"mb-site-nav"}},[_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-0",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/index.html"}},[_v("Home")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-0",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/UserGuide.html"}},[_v("User Guide")]),_v(" "),_c('div',{staticClass:"site-nav-dropdown-btn-container"},[_c('i',{staticClass:"site-nav-dropdown-btn-icon site-nav-rotate-icon",attrs:{"onclick":"handleSiteNavClick(this.parentNode.parentNode, false); event.stopPropagation();"}},[_c('span',{staticClass:"glyphicon glyphicon-menu-down",attrs:{"aria-hidden":"true"}})])])]),_c('ul',{staticClass:"site-nav-dropdown-container site-nav-dropdown-container-open site-nav-list"},[_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/UserGuide.html#quick-start"}},[_v("Quick Start")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/UserGuide.html#features"}},[_v("Features")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/UserGuide.html#faq"}},[_v("FAQ")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/UserGuide.html#faq"}},[_v("Command Summary")])])])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-0",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html"}},[_v("Developer Guide")]),_v(" "),_c('div',{staticClass:"site-nav-dropdown-btn-container"},[_c('i',{staticClass:"site-nav-dropdown-btn-icon site-nav-rotate-icon",attrs:{"onclick":"handleSiteNavClick(this.parentNode.parentNode, false); event.stopPropagation();"}},[_c('span',{staticClass:"glyphicon glyphicon-menu-down",attrs:{"aria-hidden":"true"}})])])]),_c('ul',{staticClass:"site-nav-dropdown-container site-nav-dropdown-container-open site-nav-list"},[_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#acknowledgements"}},[_v("Acknowledgements")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#setting-up-getting-started"}},[_v("Setting Up")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#design"}},[_v("Design")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#implementation"}},[_v("Implementation")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#documentation-logging-testing-configuration-dev-ops"}},[_v("Documentation, logging, testing, configuration, dev-ops")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#appendix-requirements"}},[_v("Appendix: Requirements")]),_v(" "),_c('div',{staticClass:"site-nav-dropdown-btn-container"},[_c('i',{staticClass:"site-nav-dropdown-btn-icon",attrs:{"onclick":"handleSiteNavClick(this.parentNode.parentNode, false); event.stopPropagation();"}},[_c('span',{staticClass:"glyphicon glyphicon-menu-down",attrs:{"aria-hidden":"true"}})])])]),_c('ul',{staticClass:"site-nav-dropdown-container site-nav-list"},[_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-2",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#product-scope"}},[_v("Product Scope")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-2",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#user-stories"}},[_v("User Stories")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-2",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#use-cases"}},[_v("Use Cases")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-2",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#non-functional-requirements"}},[_v("Non-Functional Requirements")])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-2",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#glossary"}},[_v("Glossary")])])])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-1",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/DeveloperGuide.html#appendix-instructions-for-manual-testing"}},[_v("Appendix: Instructions for manual testing")])])])])]),_v(" "),_c('li',[_c('div',{staticClass:"site-nav-default-list-item site-nav-list-item-0",attrs:{"onclick":"handleSiteNavClick(this)"}},[_c('a',{attrs:{"href":"/tp/AboutUs.html"}},[_v("About Us")])])])])],1)],1)]),_v(" "),_c('div',{attrs:{"id":"content-wrapper"}},[_m(0),_v(" "),_c('div',{pre:true,attrs:{"class":"page-nav-print d-none d-print-block"}}),_v(" "),_c('hr'),_v(" "),_m(1),_v(" "),_m(2),_v(" "),_c('hr'),_v(" "),_m(3),_v(" "),_m(4),_v(" "),_c('hr'),_v(" "),_m(5),_v(" "),_m(6),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/ArchitectureDiagram.png","width":"280"}}),_v(" "),_m(7),_v(" "),_c('p',[_v("Given below is a quick overview of main components and how they interact with each other.")]),_v(" "),_m(8),_v(" "),_m(9),_v(" "),_m(10),_v(" "),_c('p',[_v("The bulk of the app's work is done by the following four components:")]),_v(" "),_m(11),_v(" "),_m(12),_v(" "),_m(13),_v(" "),_m(14),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/ArchitectureSequenceDiagram.png","width":"574"}}),_v(" "),_c('p',[_v("Each of the four main components (also shown in the diagram above),")]),_v(" "),_m(15),_v(" "),_m(16),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/ComponentManagers.png","width":"300"}}),_v(" "),_c('p',[_v("The sections below give more details of each component.")]),_v(" "),_m(17),_v(" "),_m(18),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UiClassDiagram.png","alt":"Structure of the UI Component"}}),_v(" "),_m(19),_v(" "),_m(20),_v(" "),_m(21),_v(" "),_m(22),_v(" "),_m(23),_v(" "),_m(24),_v(" "),_m(25),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/LogicClassDiagram.png","width":"550"}}),_v(" "),_m(26),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/DeleteSequenceDiagram.png","alt":"Interactions Inside the Logic Component for the `delete 1` Command"}}),_v(" "),_c('box',{attrs:{"type":"info","seamless":""}},[_c('p',[_c('strong',[_v("Note:")]),_v(" The lifeline for "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("DeleteCommandParser")]),_v(" should end at the destroy marker (X) but due to a limitation of PlantUML, the lifeline continues till the end of diagram.")])]),_v(" "),_m(27),_v(" "),_m(28),_v(" "),_m(29),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/ParserClasses.png","width":"600"}}),_v(" "),_c('p',[_v("How the parsing works:")]),_v(" "),_m(30),_v(" "),_m(31),_v(" "),_m(32),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/ModelClassDiagram.png","width":"450"}}),_v(" "),_m(33),_v(" "),_m(34),_v(" "),_c('box',{attrs:{"type":"info","seamless":""}},[_c('p',[_c('strong',[_v("Note:")]),_v(" An alternative (arguably, a more OOP) model is given below. It has a "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Tag")]),_v(" list in the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("AddressBook")]),_v(", which "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Person")]),_v(" references. This allows "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("AddressBook")]),_v(" to only require one "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Tag")]),_v(" object per unique tag, instead of each "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Person")]),_v(" needing their own "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Tag")]),_v(" objects."),_c('br')]),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/BetterModelClassDiagram.png","width":"450"}})],1),_v(" "),_m(35),_v(" "),_m(36),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/StorageClassDiagram.png","width":"550"}}),_v(" "),_m(37),_v(" "),_m(38),_v(" "),_m(39),_v(" "),_m(40),_v(" "),_c('hr'),_v(" "),_m(41),_v(" "),_c('p',[_v("This section describes some noteworthy details on how certain features are implemented.")]),_v(" "),_m(42),_v(" "),_m(43),_v(" "),_m(44),_v(" "),_m(45),_v(" "),_m(46),_v(" "),_c('p',[_v("Given below is an example usage scenario and how the undo/redo mechanism behaves at each step.")]),_v(" "),_m(47),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoRedoState0.png","alt":"UndoRedoState0"}}),_v(" "),_m(48),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoRedoState1.png","alt":"UndoRedoState1"}}),_v(" "),_m(49),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoRedoState2.png","alt":"UndoRedoState2"}}),_v(" "),_c('box',{attrs:{"type":"info","seamless":""}},[_c('p',[_c('strong',[_v("Note:")]),_v(" If a command fails its execution, it will not call "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Model#commitAddressBook()")]),_v(", so the address book state will not be saved into the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addressBookStateList")]),_v(".")])]),_v(" "),_m(50),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoRedoState3.png","alt":"UndoRedoState3"}}),_v(" "),_c('box',{attrs:{"type":"info","seamless":""}},[_c('p',[_c('strong',[_v("Note:")]),_v(" If the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("currentStatePointer")]),_v(" is at index 0, pointing to the initial AddressBook state, then there are no previous AddressBook states to restore. The "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("undo")]),_v(" command uses "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Model#canUndoAddressBook()")]),_v(" to check if this is the case. If so, it will return an error to the user rather\nthan attempting to perform the undo.")])]),_v(" "),_m(51),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoSequenceDiagram-Logic.png","alt":"UndoSequenceDiagram-Logic"}}),_v(" "),_c('box',{attrs:{"type":"info","seamless":""}},[_c('p',[_c('strong',[_v("Note:")]),_v(" The lifeline for "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("UndoCommand")]),_v(" should end at the destroy marker (X) but due to a limitation of PlantUML, the lifeline reaches the end of diagram.")])]),_v(" "),_m(52),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoSequenceDiagram-Model.png","alt":"UndoSequenceDiagram-Model"}}),_v(" "),_m(53),_v(" "),_c('box',{attrs:{"type":"info","seamless":""}},[_c('p',[_c('strong',[_v("Note:")]),_v(" If the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("currentStatePointer")]),_v(" is at index "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addressBookStateList.size() - 1")]),_v(", pointing to the latest address book state, then there are no undone AddressBook states to restore. The "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("redo")]),_v(" command uses "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Model#canRedoAddressBook()")]),_v(" to check if this is the case. If so, it will return an error to the user rather than attempting to perform the redo.")])]),_v(" "),_m(54),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoRedoState4.png","alt":"UndoRedoState4"}}),_v(" "),_m(55),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/UndoRedoState5.png","alt":"UndoRedoState5"}}),_v(" "),_c('p',[_v("The following activity diagram summarizes what happens when a user executes a new command:")]),_v(" "),_c('pic',{attrs:{"src":"/tp/diagrams/CommitActivityDiagram.png","width":"250"}}),_v(" "),_m(56),_v(" "),_m(57),_v(" "),_m(58),_v(" "),_m(59),_v(" "),_m(60),_v(" "),_m(61),_v(" "),_c('hr'),_v(" "),_m(62),_v(" "),_m(63),_v(" "),_c('hr'),_v(" "),_m(64),_v(" "),_m(65),_v(" "),_m(66),_v(" "),_m(67),_v(" "),_m(68),_v(" "),_m(69),_v(" "),_m(70),_v(" "),_m(71),_m(72),_v(" "),_m(73),_v(" "),_m(74),_v(" "),_m(75),_v(" "),_m(76),_v(" "),_m(77),_v(" "),_m(78),_v(" "),_m(79),_v(" "),_m(80),_v(" "),_m(81),_v(" "),_m(82),_v(" "),_m(83),_v(" "),_m(84),_v(" "),_m(85),_v(" "),_m(86),_v(" "),_m(87),_v(" "),_m(88),_v(" "),_m(89),_v(" "),_m(90),_v(" "),_m(91),_v(" "),_m(92),_v(" "),_m(93),_v(" "),_m(94),_v(" "),_m(95),_v(" "),_m(96),_v(" "),_m(97),_v(" "),_m(98),_v(" "),_m(99),_v(" "),_m(100),_v(" "),_m(101),_v(" "),_m(102),_v(" "),_m(103),_v(" "),_m(104),_v(" "),_m(105),_v(" "),_m(106),_v(" "),_m(107),_v(" "),_m(108),_v(" "),_m(109),_v(" "),_m(110),_v(" "),_m(111),_v(" "),_m(112),_v(" "),_m(113),_v(" "),_m(114),_v(" "),_m(115),_v(" "),_m(116),_v(" "),_m(117),_v(" "),_m(118),_v(" "),_m(119),_v(" "),_m(120),_v(" "),_m(121),_v(" "),_m(122),_v(" "),_m(123),_v(" "),_m(124),_v(" "),_m(125),_v(" "),_m(126),_v(" "),_m(127),_v(" "),_m(128),_v(" "),_m(129),_v(" "),_m(130),_v(" "),_m(131),_v(" "),_m(132),_v(" "),_m(133),_v(" "),_m(134),_v(" "),_m(135),_v(" "),_m(136),_v(" "),_m(137),_v(" "),_m(138),_v(" "),_m(139),_v(" "),_m(140),_v(" "),_m(141),_v(" "),_m(142),_v(" "),_m(143),_v(" "),_m(144),_v(" "),_m(145),_v(" "),_m(146),_v(" "),_m(147),_v(" "),_m(148),_v(" "),_m(149),_v(" "),_m(150),_v(" "),_m(151),_v(" "),_m(152),_v(" "),_m(153),_v(" "),_m(154),_v(" "),_m(155),_v(" "),_m(156),_v(" "),_m(157),_v(" "),_m(158),_v(" "),_m(159),_v(" "),_m(160),_v(" "),_m(161),_v(" "),_m(162),_v(" "),_m(163),_v(" "),_m(164),_v(" "),_m(165),_v(" "),_m(166),_v(" "),_m(167),_v(" "),_m(168),_v(" "),_m(169),_v(" "),_m(170),_v(" "),_m(171),_v(" "),_m(172),_v(" "),_m(173),_v(" "),_m(174),_v(" "),_m(175),_v(" "),_m(176),_v(" "),_m(177),_v(" "),_m(178),_v(" "),_m(179),_v(" "),_m(180),_v(" "),_m(181),_v(" "),_m(182),_v(" "),_m(183),_v(" "),_m(184),_v(" "),_m(185),_v(" "),_m(186),_v(" "),_c('hr'),_v(" "),_m(187),_v(" "),_c('p',[_v("Given below are instructions to test the app manually.")]),_v(" "),_c('box',{attrs:{"type":"info","seamless":""}},[_c('p',[_c('strong',[_v("Note:")]),_v(" These instructions only provide a starting point for testers to work on;\ntesters are expected to do more "),_c('em',[_v("exploratory")]),_v(" testing.")])]),_v(" "),_m(188),_v(" "),_m(189),_v(" "),_m(190),_v(" "),_m(191),_v(" "),_m(192),_v(" "),_m(193)],1),_v(" "),_c('overlay-source',{attrs:{"id":"page-nav","tag-name":"nav","to":"page-nav"}},[_c('div',{staticClass:"nav-component slim-scroll"},[_c('overlay-source',{staticClass:"nav nav-pills flex-column my-0 small no-flex-wrap",attrs:{"id":"mb-page-nav","tag-name":"nav","to":"mb-page-nav"}},[_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#studentmanagerpro-developer-guide"}},[_v("StudentManagerPro Developer Guide‎")]),_v(" "),_c('nav',{staticClass:"nav nav-pills flex-column my-0 nested no-flex-wrap"},[_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#acknowledgements"}},[_v("Acknowledgements‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#setting-up-getting-started"}},[_v("Setting up, getting started‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#design"}},[_v("Design‎")]),_v(" "),_c('nav',{staticClass:"nav nav-pills flex-column my-0 nested no-flex-wrap"},[_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#architecture"}},[_v("Architecture‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#ui-component"}},[_v("UI component‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#logic-component"}},[_v("Logic component‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#model-component"}},[_v("Model component‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#storage-component"}},[_v("Storage component‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#common-classes"}},[_v("Common classes‎")])]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#implementation"}},[_v("Implementation‎")]),_v(" "),_c('nav',{staticClass:"nav nav-pills flex-column my-0 nested no-flex-wrap"},[_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#proposed-undo-redo-feature"}},[_v("[Proposed] Undo/redo feature‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#proposed-data-archiving"}},[_v("[Proposed] Data archiving‎")])]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#documentation-logging-testing-configuration-dev-ops"}},[_v("Documentation, logging, testing, configuration, dev-ops‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#appendix-requirements"}},[_v("Appendix: Requirements‎")]),_v(" "),_c('nav',{staticClass:"nav nav-pills flex-column my-0 nested no-flex-wrap"},[_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#product-scope"}},[_v("Product scope‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#user-stories"}},[_v("User stories‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#use-cases"}},[_v("Use cases‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#non-functional-requirements"}},[_v("Non-Functional Requirements‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#glossary"}},[_v("Glossary‎")])]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#appendix-instructions-for-manual-testing"}},[_v("Appendix: Instructions for manual testing‎")]),_v(" "),_c('nav',{staticClass:"nav nav-pills flex-column my-0 nested no-flex-wrap"},[_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#launch-and-shutdown"}},[_v("Launch and shutdown‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#deleting-a-person"}},[_v("Deleting a person‎")]),_v(" "),_c('a',{pre:true,attrs:{"class":"nav-link py-1","href":"#saving-data"}},[_v("Saving data‎")])])])])],1)]),_v(" "),_c('scroll-top-button')],1),_v(" "),_m(194)])}
 };
     var pageVueStaticRenderFns = [function anonymous(
 ) {
@@ -227,22 +227,331 @@ with(this){return _c('h3',{attrs:{"id":"use-cases"}},[_v("Use cases"),_c('a',{st
 with(this){return _c('p',[_v("(For all use cases below, the "),_c('strong',[_v("System")]),_v(" is the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("AddressBook")]),_v(" and the "),_c('strong',[_v("Actor")]),_v(" is the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("user")]),_v(", unless specified otherwise)")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case: Delete a person")])])}
+with(this){return _c('p',[_c('strong',[_v("System: StudentManagerPro")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Use case: UC01 Add Student's Name")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Actor: User")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Preconditions: User is logged in.")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Guarantees:")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("If successful, the student's name is added to the system and can be used to track their academic progress.")]),_v(" "),_c('li',[_v("If an invalid name is given as input, a corresponding error message is displayed.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to list persons")])]),_v(" "),_c('li',[_c('p',[_v("AddressBook shows a list of persons")])]),_v(" "),_c('li',[_c('p',[_v("User requests to delete a specific person in the list")])]),_v(" "),_c('li',[_c('p',[_v("AddressBook deletes the person")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_v("User gives the command to add a student's name to the StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the input.")]),_v(" "),_c('li',[_v("System adds the student to the system.")]),_v(" "),_c('li',[_v("System adds the student name to the student profile.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message.\nUse case ends.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The list is empty.")]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("3a. The given index is invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3a1. AddressBook shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid name command format, with no special characters.\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the name field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid name.\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3b. User enters a duplicate name.")]),_v(" "),_c('ul',[_c('li',[_v("3b1. System displays an error message notifying that the name already exists in the system.\nUse case ends.")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('em',[_v("{More to be added}")])])}
+with(this){return _c('p',[_c('strong',[_v("System: StudentManagerPro")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Use case: UC02 Add Student's Email")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Actor: User")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Preconditions:")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("User is logged in.")]),_v(" "),_c('li',[_v("Student profile has been created through the "),_c('u',[_v("addition of the student name(UC01).")])])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Guarantees:")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("If successful, the student's email is added to the student profile and saved in the system.")]),_v(" "),_c('li',[_v("If an invalid email is given as input, a corresponding error message is displayed.")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("MSS")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',[_c('li',[_v("User gives the command to add a student's email to a student's profile in the StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the input.")]),_v(" "),_c('li',[_v("System adds the email to the student profile in the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message.\nUse case ends.")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid email command format, with no special characters.\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the email field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid email.\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3b. User enters a duplicate email.")]),_v(" "),_c('ul',[_c('li',[_v("3b1. System displays an error message notifying that the email already exists in the system.\nUse case ends.")])])])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("System: StudentManagerPro")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Use case: UC03 Add Student's Register Number")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Actor: User")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Preconditions:")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("User is logged in.")]),_v(" "),_c('li',[_v("Student profile has been created through the "),_c('u',[_v("addition of the student name(UC01).")])])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Guarantees:")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("If successful, the student's register number is added to the student profile and saved in the system.")]),_v(" "),_c('li',[_v("If an invalid register number is given as input, a corresponding error message is displayed.")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("MSS")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',[_c('li',[_v("User gives the command to add a student's register number to a student's profile in the StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the input.")]),_v(" "),_c('li',[_v("System adds the register number to the student profile in the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message.\nUse case ends.")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid register number command format, with no\nspecial characters.\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the register number field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid register number.\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3b. User enters a duplicate register number.")]),_v(" "),_c('ul',[_c('li',[_v("3b1. System displays an error message notifying that the register number already exists in the system.\nUse case ends.")])])])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("System: StudentManagerPro")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Use case: UC04 Add Student's Sex")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Actor: User")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Preconditions:")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("User is logged in.")]),_v(" "),_c('li',[_v("Student profile has been created through the "),_c('u',[_v("addition of the student name(UC01).")])])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Guarantees:")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("If successful, the student's sex is added to the student profile and saved in the system.")]),_v(" "),_c('li',[_v("If an invalid sex is given as input, a corresponding error message is displayed.")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("MSS")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',[_c('li',[_v("User gives the command to add a student's sex to a student's profile in the StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the input.")]),_v(" "),_c('li',[_v("System adds the sex to the student profile in the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message.\nUse case ends.")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid sex command format, with no\nspecial characters.\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the sex field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid sex.\nUse case ends.")])])])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("System: StudentManagerPro")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Use case: UC05 Add Student's Address")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Actor: User")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Preconditions:")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("User is logged in.")]),_v(" "),_c('li',[_v("Student profile has been created through the "),_c('u',[_v("addition of the student name(UC01).")])])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Guarantees:")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("If successful, the student's address is added to the student profile and saved in the system.")]),_v(" "),_c('li',[_v("If an invalid address is given as input, a corresponding error message is displayed.")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("MSS")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',[_c('li',[_v("User gives the command to add a student's address to a student's profile in the StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the input.")]),_v(" "),_c('li',[_v("System adds the address to the student profile in the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message.\nUse case ends.")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid address command format, with only acceptable\nspecial characters.\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the address field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid address.\nUse case ends.")])])])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("System: StudentManagerPro")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Use case: UC06 Add Student's Contact Number")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Actor: User")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Preconditions:")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("User is logged in.")]),_v(" "),_c('li',[_v("Student profile has been created through the "),_c('u',[_v("addition of the student name(UC01).")])])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Guarantees:")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("If successful, the student's contact number is added to the student profile and saved in the system.")]),_v(" "),_c('li',[_v("If an invalid contact number is given as input, a corresponding error message is displayed.")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("MSS")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',[_c('li',[_v("User gives the command to add a student's contact number to a student's profile in the StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the input.")]),_v(" "),_c('li',[_v("System adds the contact number to the student profile in the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message.\nUse case ends.")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid contact number command format, with no\nspecial characters.\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the contact number field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid contact number.\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3b. User enters a duplicate contact number.")]),_v(" "),_c('ul',[_c('li',[_v("3b1. System displays an error message notifying that the contact number already exists in the system.\nUse case ends.")])])])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("System: StudentManagerPro")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Use case: UC07 Add Student's Emergency Contact Name")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Actor: User")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Preconditions:")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("User is logged in.")]),_v(" "),_c('li',[_v("Student profile has been created through the "),_c('u',[_v("addition of the student name(UC01).")])])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Guarantees:")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("If successful, the student's emergency contact name is added to the student profile and saved in the system.")]),_v(" "),_c('li',[_v("If an invalid name is given as input, a corresponding error message is displayed.")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("MSS")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',[_c('li',[_v("User gives the command to add a student's emergency contact name to a student's profile in the StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the input.")]),_v(" "),_c('li',[_v("System adds the emergency contact name to the student profile in the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message.\nUse case ends.")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid emergency contact name command format, with no\nspecial characters.\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the emergency contact name field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid emergency contact name.\nUse case ends.")])])])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("System: StudentManagerPro")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Use case: UC08 Add Student's Emergency Contact Number")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Actor: User")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Preconditions:")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("User is logged in.")]),_v(" "),_c('li',[_v("Student profile has been created through the "),_c('u',[_v("addition of the student name(UC01).")])])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Guarantees:")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("If successful, the student's emergency contact number is added to the student profile and saved in the system.")]),_v(" "),_c('li',[_v("If an invalid contact number is given as input, a corresponding error message is displayed.")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("MSS")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',[_c('li',[_v("User gives the command to add a student's emergency contact number to a student's profile in the StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the input.")]),_v(" "),_c('li',[_v("System adds the emergency contact number to the student profile in the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message.\nUse case ends.")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid emergency contact number command format, with no\nspecial characters.\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the emergency contact number field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid emergency contact number.\nUse case ends.")])])])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("System: StudentManagerPro")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Use case: UC9 Group Students Into Their Classes")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Actor: User")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Preconditions:")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("User is logged in.")]),_v(" "),_c('li',[_v("Student profile has been created through the "),_c('u',[_v("addition of the student name(UC01).")])]),_v(" "),_c('li',[_v("Student profile has been updated with "),_c('u',[_v("additional details from UC02 to UC08.")])])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Guarantees:")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("If successful, the student's class is added to the student profile.")]),_v(" "),_c('li',[_v("If an invalid data is entered, a corresponding error message is displayed.")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("MSS")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',[_c('li',[_v("User gives the command to add a student's class to a student's profile in the StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the input.")]),_v(" "),_c('li',[_v("System adds the class to the student profile in the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message.\nUse case ends.")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid class command format, with no\nspecial characters.\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the class field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid class.\nUse case ends.")])])])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("System: StudentManagerPro")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Use case: UC11 Remove Student from the System")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Actor: User")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Preconditions:")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("User is logged in.")]),_v(" "),_c('li',[_v("Student to be removed exists in the system.")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Guarantees:")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_v("If successful, the student will be removed from the system.")]),_v(" "),_c('li',[_v("If student does not exist or an invalid input is entered, a corresponding error message is displayed.")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("MSS")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',[_c('li',[_v("User gives the command to remove a student from the StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the input.")]),_v(" "),_c('li',[_v("System removes the student from the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message.\nUse case ends.")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid name command format, with no\nspecial characters.\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the name field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid name.\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3b. User enters a name that does not exist in the system.")]),_v(" "),_c('ul',[_c('li',[_v("3b1. System displays an error message to ask for a valid name of a student in the system.\nUse case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"non-functional-requirements"}},[_v("Non-Functional Requirements"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#non-functional-requirements","onclick":"event.stopPropagation()"}})])}
@@ -278,6 +587,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('em',[_v("{explain how to simulate a missing/corrupted file, and the expected behavior}")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sun, 6 Oct 2024, 18:46:04 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sun, 6 Oct 2024, 19:04:58 GMT+8]")])])])}
 }];
   
