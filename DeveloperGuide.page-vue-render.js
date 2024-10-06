@@ -254,7 +254,7 @@ with(this){return _c('ol',[_c('li',[_v("Should work on any "),_c('em',[_v("mains
 with(this){return _c('h3',{attrs:{"id":"glossary"}},[_v("Glossary"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#glossary","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('strong',[_v("Mainstream OS")]),_v(": Windows, Linux, Unix, MacOS")]),_v(" "),_c('li',[_c('strong',[_v("Private contact detail")]),_v(": A contact detail that is not meant to be shared with others")])])}
+with(this){return _c('ul',[_c('li',[_c('strong',[_v("Mainstream OS")]),_v(": Windows, Linux, Unix, MacOS")]),_v(" "),_c('li',[_c('strong',[_v("DBMS (Database Management System)")]),_v(": Software for storing, retrieving, and managing data")]),_v(" "),_c('li',[_c('strong',[_v("Developer Guide (DG)")]),_v(": A document that provides technical details about the product's design and implementation")]),_v(" "),_c('li',[_c('strong',[_v("User Guide (UG)")]),_v(": A document that provides instructions for users on how to use the product's features")]),_v(" "),_c('li',[_c('strong',[_v("CLI (Command Line Interface)")]),_v(": An interface where the user types commands to interact with the software")]),_v(" "),_c('li',[_c('strong',[_v("Class Grouping")]),_v(": The division of students into their respective classes, which can be managed and organized in the app for easy access")]),_v(" "),_c('li',[_c('strong',[_v("Project Grouping")]),_v(": The arrangement of students into smaller groups for project purposes")]),_v(" "),_c('li',[_c('strong',[_v("Tags")]),_v(": Labels assigned to students to indicate specific roles or characteristics")]),_v(" "),_c('li',[_c('strong',[_v("Student Profile")]),_v(": A record within the system that contains information about a specific student")])])}
 },function anonymous(
 ) {
 with(this){return _c('h2',{attrs:{"id":"appendix-instructions-for-manual-testing"}},[_c('strong',[_v("Appendix: Instructions for manual testing")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#appendix-instructions-for-manual-testing","onclick":"event.stopPropagation()"}})])}
@@ -278,6 +278,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('em',[_v("{explain how to simulate a missing/corrupted file, and the expected behavior}")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sun, 6 Oct 2024, 18:38:41 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sun, 6 Oct 2024, 18:46:04 GMT+8]")])])])}
 }];
   
