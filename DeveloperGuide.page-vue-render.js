@@ -491,7 +491,7 @@ with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characte
 with(this){return _c('p',[_c('strong',[_v("System: StudentManagerPro")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case: UC9 Group Students Into Their Classes")])])}
+with(this){return _c('p',[_c('strong',[_v("Use case: UC09 Group Students Into Their Classes")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Actor: User")])])}
@@ -524,7 +524,7 @@ with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characte
 with(this){return _c('p',[_c('strong',[_v("System: StudentManagerPro")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case: UC11 Remove Student from the System")])])}
+with(this){return _c('p',[_c('strong',[_v("Use case: UC10 Remove Student from the System")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Actor: User")])])}
@@ -587,6 +587,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('em',[_v("{explain how to simulate a missing/corrupted file, and the expected behavior}")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Thu, 10 Oct 2024, 1:33:43 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Thu, 10 Oct 2024, 2:23:16 GMT+8]")])])])}
 }];
   
