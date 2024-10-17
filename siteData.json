@@ -116,6 +116,7 @@
         "editing-a-student-edit": "Editing a student : edit",
         "locating-persons-by-name-find": "Locating persons by name: find",
         "deleting-a-person-delete": "Deleting a person : delete",
+        "adding-an-emergency-contact-s-name-addemergencycontactname": "Adding an Emergency contact's name : 'addEmergencyContactName'",
         "adding-an-emergency-phone-number-emergencyphone": "Adding an Emergency phone number : emergencyPhone",
         "clearing-all-entries-clear": "Clearing all entries : clear",
         "exiting-the-program-exit": "Exiting the program : exit",
