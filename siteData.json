@@ -118,6 +118,7 @@
         "deleting-a-person-delete": "Deleting a person : delete",
         "adding-an-emergency-contact-s-name-addecname": "Adding an Emergency contact's name : addEcName",
         "adding-an-emergency-contact-s-number-addecnumber": "Adding an Emergency contact's number : addEcNumber",
+        "adding-attendance-addattendance": "Adding Attendance : addAttendance",
         "adding-an-exam-addexam": "Adding an Exam : addExam",
         "adding-an-exam-score-addexamscore": "Adding an Exam Score: addExamScore",
         "clearing-all-entries-clear": "Clearing all entries : clear",
