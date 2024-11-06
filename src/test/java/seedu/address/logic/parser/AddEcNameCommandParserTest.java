@@ -1,7 +1,6 @@
 package seedu.address.logic.parser;
 
 import static seedu.address.logic.Messages.MESSAGE_INVALID_COMMAND_FORMAT;
-import static seedu.address.logic.commands.CommandTestUtil.VALID_ECNUMBER_BOB;
 import static seedu.address.logic.commands.CommandTestUtil.assertCommandFailure;
 import static seedu.address.logic.parser.CliSyntax.PREFIX_ECNAME;
 import static seedu.address.logic.parser.CommandParserTestUtil.assertParseFailure;
@@ -14,12 +13,10 @@ import org.junit.jupiter.api.Test;
 import seedu.address.commons.core.index.Index;
 import seedu.address.logic.Messages;
 import seedu.address.logic.commands.AddEcNameCommand;
-import seedu.address.logic.commands.AddEcNumberCommand;
 import seedu.address.model.Model;
 import seedu.address.model.ModelManager;
 import seedu.address.model.UserPrefs;
 import seedu.address.model.person.EcName;
-import seedu.address.model.person.EcNumber;
 
 
 public class AddEcNameCommandParserTest {
@@ -68,8 +65,10 @@ public class AddEcNameCommandParserTest {
 
     @Test
     public void parse_extraWhitespace_success() {
-        String userInput = "   " + INDEX_FIRST_PERSON.getOneBased() + "   " + PREFIX_ECNAME + "   " + validEmergencyContactName + "   ";
-        AddEcNameCommand expectedCommand = new AddEcNameCommand(INDEX_FIRST_PERSON, new EcName(validEmergencyContactName));
+        String userInput = "   " + INDEX_FIRST_PERSON.getOneBased() + "   " + PREFIX_ECNAME + "   "
+                + validEmergencyContactName + "   ";
+        AddEcNameCommand expectedCommand = new AddEcNameCommand(INDEX_FIRST_PERSON,
+                new EcName(validEmergencyContactName));
         assertParseSuccess(parser, userInput, expectedCommand);
     }
 
