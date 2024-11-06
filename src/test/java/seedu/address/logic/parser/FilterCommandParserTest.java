@@ -261,4 +261,53 @@ public class FilterCommandParserTest {
         assertParseFailure(parser, "filter  ", exceptionString);
         assertParseFailure(parser, "filter n", exceptionString);
     }
+
+    @Test
+    void parse_invalidNameFormat_throwsParseException() {
+        // Test case with an invalid name format
+        assertParseFailure(parser, "filter n/!@#$", Name.MESSAGE_CONSTRAINTS);
+    }
+
+    @Test
+    void parse_invalidPhoneFormat_throwsParseException() {
+        // Test case with an invalid phone format
+        assertParseFailure(parser, "filter p/abcd1234", Phone.MESSAGE_CONSTRAINTS);
+    }
+
+    @Test
+    void parse_invalidEmailFormat_throwsParseException() {
+        // Test case with an invalid email format
+        assertParseFailure(parser, "filter e/invalid_email", Email.MESSAGE_CONSTRAINTS);
+    }
+
+    @Test
+    void parse_invalidRegisterNumberFormat_throwsParseException() {
+        // Test case with an invalid register number format
+        assertParseFailure(parser, "filter r/12345678abc", RegisterNumber.MESSAGE_CONSTRAINTS);
+    }
+
+    @Test
+    void parse_invalidSexFormat_throwsParseException() {
+        // Test case with an invalid sex format
+        assertParseFailure(parser, "filter s/unknown", Sex.MESSAGE_CONSTRAINTS);
+    }
+
+    @Test
+    void parse_invalidStudentClassFormat_throwsParseException() {
+        // Test case with an invalid class format
+        assertParseFailure(parser, "filter c/invalidclass!", StudentClass.MESSAGE_CONSTRAINTS);
+    }
+
+    @Test
+    void parse_invalidEcNameFormat_throwsParseException() {
+        // Test case with an invalid emergency contact name format
+        assertParseFailure(parser, "filter en/@@#$", EcName.MESSAGE_CONSTRAINTS);
+    }
+
+    @Test
+    void parse_invalidEcNumberFormat_throwsParseException() {
+        // Test case with an invalid emergency contact number format
+        assertParseFailure(parser, "filter ep/abc1234", EcNumber.MESSAGE_CONSTRAINTS);
+    }
+
 }
