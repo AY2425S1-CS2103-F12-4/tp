@@ -39,7 +39,6 @@ public class AddEcNameCommand extends Command {
     public AddEcNameCommand(Index index, EcName ecName) {
         requireAllNonNull(index, ecName);
         assert index != null : "Index should not be null";
-        assert ecName != null : "EcName should not be null";
 
         this.index = index;
         this.ecName = ecName;

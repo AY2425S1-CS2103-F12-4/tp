@@ -65,6 +65,7 @@ public class AddEcNameCommandTest {
         expectedModel.setPerson(firstPerson, editedPerson);
         assertCommandSuccess(ecNameCommand, model, expectedMessage, expectedModel);
     }
+
     @Test
     public void execute_invalidPersonIndexUnfilteredList_failure() {
         Index outOfBoundIndex = Index.fromOneBased(model.getFilteredPersonList().size() + 1);
