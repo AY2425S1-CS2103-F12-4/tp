@@ -25,8 +25,8 @@ public class AddEcNameCommand extends Command {
             + "Parameters: [INDEX] en/EMERGENCY_CONTACT\n"
             + "Example: " + COMMAND_WORD + " 1 en/John Doe";
 
-    public static final String MESSAGE_ADD_ECNAME_SUCCESS = "Added emergency contact name for Person: %1$s";
-    public static final String MESSAGE_DELETE_ECNAME_SUCCESS = "Removed emergency contact name from Person: %1$s";
+    public static final String MESSAGE_ADD_ECNAME_SUCCESS = "Added emergency contact name for %1$s";
+    public static final String MESSAGE_DELETE_ECNAME_SUCCESS = "Removed emergency contact name from %1$s";
 
     private final Index index;
     private final EcName ecName;
@@ -69,7 +69,7 @@ public class AddEcNameCommand extends Command {
      */
     private String generateSuccessMessage(Person personToEdit) {
         String message = !ecName.value.isEmpty() ? MESSAGE_ADD_ECNAME_SUCCESS : MESSAGE_DELETE_ECNAME_SUCCESS;
-        return String.format(message, Messages.format(personToEdit));
+        return String.format(message, personToEdit.getName(), personToEdit.getEcName());
     }
 
     @Override
