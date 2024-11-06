@@ -22,7 +22,7 @@ public class AddEcNameCommandParserTest {
 
     @Test
     public void parse_paramsPresent_success() {
-        // all fields provided
+        // EP: all fields provided
         Index targetIndex = INDEX_FIRST_PERSON;
         String userInput = targetIndex.getOneBased() + " " + PREFIX_ECNAME + validEmergencyContactName;
         AddEcNameCommand expectedCommand =
@@ -36,12 +36,12 @@ public class AddEcNameCommandParserTest {
         String expectedMessage = String.format(MESSAGE_INVALID_COMMAND_FORMAT,
                 AddEcNameCommand.MESSAGE_USAGE);
 
-        // no index
+        // EP: no index
         String userInput = AddEcNameCommand.COMMAND_WORD + " " + PREFIX_ECNAME
                 + validEmergencyContactName;
         assertParseFailure(parser, userInput, expectedMessage);
 
-        // no parameters
+        // EP: no parameters
         userInput = AddEcNameCommand.COMMAND_WORD;
         assertParseFailure(parser, userInput, expectedMessage);
     }
