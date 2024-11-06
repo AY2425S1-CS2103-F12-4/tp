@@ -38,6 +38,8 @@ public class AddEcNameCommand extends Command {
      */
     public AddEcNameCommand(Index index, EcName ecName) {
         requireAllNonNull(index, ecName);
+        assert index != null : "Index should not be null";
+        assert ecName != null : "EcName should not be null";
 
         this.index = index;
         this.ecName = ecName;
@@ -53,6 +55,8 @@ public class AddEcNameCommand extends Command {
         }
 
         Person personToEdit = lastShownList.get(index.getZeroBased());
+        assert personToEdit != null : "Person to edit should not be null";
+
         Person editedPerson = new Person(personToEdit.getName(), personToEdit.getPhone(), personToEdit.getEmail(),
                 personToEdit.getAddress(), personToEdit.getRegisterNumber(), personToEdit.getSex(),
                 personToEdit.getStudentClass(), ecName, personToEdit.getEcNumber(), personToEdit.getExams(),
