@@ -64,11 +64,14 @@
         "launch-and-shutdown": "Launch and shutdown",
         "adding-a-student": "Adding a student",
         "deleting-a-student": "Deleting a student",
+        "editing-a-student": "Editing a student",
+        "adding-ecnumber-for-a-student": "Adding EcNumber for a student",
         "adding-attendance-for-a-student": "Adding attendance for a student",
         "deleting-attendance-for-a-student": "Deleting attendance for a student",
         "adding-submission-for-students": "Adding submission for students",
         "adding-submission-status-for-a-student": "Adding submission status for a student",
         "deleting-submission-for-students": "Deleting submission for students",
+        "sorting-students": "Sorting students",
         "saving-data": "Saving data"
       },
       "headingKeywords": {}
