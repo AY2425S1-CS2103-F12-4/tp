@@ -62,10 +62,13 @@
         "glossary": "Glossary",
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
         "launch-and-shutdown": "Launch and shutdown",
-        "adding-a-person": "Adding a person",
-        "deleting-a-person": "Deleting a person",
-        "adding-attendance-for-a-person": "Adding attendance for a person",
-        "deleting-attendance-for-a-person": "Deleting attendance for a person",
+        "adding-a-student": "Adding a student",
+        "deleting-a-student": "Deleting a student",
+        "adding-attendance-for-a-student": "Adding attendance for a student",
+        "deleting-attendance-for-a-student": "Deleting attendance for a student",
+        "adding-submission-for-students": "Adding submission for students",
+        "adding-submission-status-for-a-student": "Adding submission status for a student",
+        "deleting-submission-for-students": "Deleting submission for students",
         "saving-data": "Saving data"
       },
       "headingKeywords": {}
