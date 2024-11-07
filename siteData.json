@@ -135,6 +135,7 @@
         "adding-an-emergency-contact-s-number-addecnumber": "Adding an Emergency contact's number : addEcNumber",
         "adding-attendance-addattendance": "Adding Attendance : addAttendance",
         "adding-an-exam-addexam": "Adding an Exam : addExam",
+        "deleting-an-exam-deleteexam": "Deleting an Exam : deleteExam",
         "adding-an-exam-score-addexamscore": "Adding an Exam Score: addExamScore",
         "adding-a-submission-addsubmission": "Adding a Submission : addSubmission",
         "adding-a-submission-status-addsubmissionstatus": "Adding a Submission Status: addSubmissionStatus",
