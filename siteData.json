@@ -129,7 +129,7 @@
         "adding-a-student-add": "Adding a student: add",
         "listing-all-students-list": "Listing all students : list",
         "editing-a-student-edit": "Editing a student : edit",
-        "filtering-persons-by-name-filter": "Filtering persons by name: filter",
+        "filtering-persons-by-attributes-filter": "Filtering persons by attributes: filter",
         "deleting-a-person-delete": "Deleting a person : delete",
         "adding-an-emergency-contact-s-name-addecname": "Adding an Emergency contact's name : addEcName",
         "adding-an-emergency-contact-s-number-addecnumber": "Adding an Emergency contact's number : addEcNumber",
