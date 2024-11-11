@@ -32,7 +32,7 @@ with(this){return _c('p',[_v("The "),_c('em',[_c('strong',[_v("Architecture Diag
 with(this){return _c('p',[_c('strong',[_v("Main components of the architecture")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Main")])]),_v(" (consisting of classes "),_c('a',{attrs:{"href":"https://github.com/se-edu/addressbook-level3/tree/master/src/main/java/seedu/address/Main.java"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Main")])]),_v(" and "),_c('a',{attrs:{"href":"https://github.com/se-edu/addressbook-level3/tree/master/src/main/java/seedu/address/MainApp.java"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("MainApp")])]),_v(") is in charge of the app launch and shut down.")])}
+with(this){return _c('p',[_c('strong',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Main")])]),_v(" (consisting of classes "),_c('a',{attrs:{"href":"https://github.com/AY2425S1-CS2103-F12-4/tp/tree/master/src/main/java/seedu/address/Main.java"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Main")])]),_v(" and "),_c('a',{attrs:{"href":"https://github.com/AY2425S1-CS2103-F12-4/tp/tree/master/src/main/java/seedu/address/MainApp.java"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("MainApp")])]),_v(") is in charge of the app launch and shut down.")])}
 },function anonymous(
 ) {
 with(this){return _c('ul',[_c('li',[_v("At app launch, it initializes the other components in the correct sequence, and connects them up with each other.")]),_v(" "),_c('li',[_v("At shut down, it shuts down the other components and invokes cleanup methods where necessary.")])])}
@@ -59,13 +59,13 @@ with(this){return _c('p',[_v("For example, the "),_c('code',{pre:true,attrs:{"cl
 with(this){return _c('h3',{attrs:{"id":"ui-component"}},[_v("UI component"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#ui-component","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("The "),_c('strong',[_v("API")]),_v(" of this component is specified in "),_c('a',{attrs:{"href":"https://github.com/se-edu/addressbook-level3/tree/master/src/main/java/seedu/address/ui/Ui.java"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Ui.java")])])])}
+with(this){return _c('p',[_v("The "),_c('strong',[_v("API")]),_v(" of this component is specified in "),_c('a',{attrs:{"href":"https://github.com/AY2425S1-CS2103-F12-4/tp/tree/master/src/main/java/seedu/address/ui/Ui.java"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Ui.java")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("The UI consists of a "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("MainWindow")]),_v(" that is made up of parts e.g."),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("CommandBox")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ResultDisplay")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("PersonListPanel")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("StatusBarFooter")]),_v(" etc. All these, including the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("MainWindow")]),_v(", inherit from the abstract "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("UiPart")]),_v(" class which captures the commonalities between classes that represent parts of the visible GUI.")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("The "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("UI")]),_v(" component uses the JavaFx UI framework. The layout of these UI parts are defined in matching "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v(".fxml")]),_v(" files that are in the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("src/main/resources/view")]),_v(" folder. For example, the layout of the "),_c('a',{attrs:{"href":"https://github.com/se-edu/addressbook-level3/tree/master/src/main/java/seedu/address/ui/MainWindow.java"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("MainWindow")])]),_v(" is specified in "),_c('a',{attrs:{"href":"https://github.com/se-edu/addressbook-level3/tree/master/src/main/resources/view/MainWindow.fxml"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("MainWindow.fxml")])])])}
+with(this){return _c('p',[_v("The "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("UI")]),_v(" component uses the JavaFx UI framework. The layout of these UI parts are defined in matching "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v(".fxml")]),_v(" files that are in the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("src/main/resources/view")]),_v(" folder. For example, the layout of the "),_c('a',{attrs:{"href":"https://github.com/AY2425S1-CS2103-F12-4/tp/tree/master/src/main/java/seedu/address/ui/MainWindow.java"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("MainWindow")])]),_v(" is specified in "),_c('a',{attrs:{"href":"https://github.com/AY2425S1-CS2103-F12-4/tp/tree/master/src/main/resources/view/MainWindow.fxml"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("MainWindow.fxml")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("The "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("UI")]),_v(" component,")])}
@@ -77,7 +77,7 @@ with(this){return _c('ul',[_c('li',[_v("executes user commands using the "),_c('
 with(this){return _c('h3',{attrs:{"id":"logic-component"}},[_v("Logic component"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#logic-component","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("API")]),_v(" : "),_c('a',{attrs:{"href":"https://github.com/se-edu/addressbook-level3/tree/master/src/main/java/seedu/address/logic/Logic.java"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Logic.java")])])])}
+with(this){return _c('p',[_c('strong',[_v("API")]),_v(" : "),_c('a',{attrs:{"href":"https://github.com/AY2425S1-CS2103-F12-4/tp/tree/master/src/main/java/seedu/address/logic/Logic.java"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Logic.java")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("Here's a (partial) class diagram of the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Logic")]),_v(" component:")])}
@@ -101,7 +101,7 @@ with(this){return _c('ul',[_c('li',[_v("When called upon to parse a user command
 with(this){return _c('h3',{attrs:{"id":"model-component"}},[_v("Model component"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#model-component","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("API")]),_v(" : "),_c('a',{attrs:{"href":"https://github.com/se-edu/addressbook-level3/tree/master/src/main/java/seedu/address/model/Model.java"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Model.java")])])])}
+with(this){return _c('p',[_c('strong',[_v("API")]),_v(" : "),_c('a',{attrs:{"href":"https://github.com/AY2425S1-CS2103-F12-4/tp/tree/master/src/main/java/seedu/address/model/Model.java"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Model.java")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("The "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Model")]),_v(" component,")])}
@@ -113,7 +113,7 @@ with(this){return _c('ul',[_c('li',[_v("stores the address book data i.e., all "
 with(this){return _c('h3',{attrs:{"id":"storage-component"}},[_v("Storage component"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#storage-component","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("API")]),_v(" : "),_c('a',{attrs:{"href":"https://github.com/se-edu/addressbook-level3/tree/master/src/main/java/seedu/address/storage/Storage.java"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Storage.java")])])])}
+with(this){return _c('p',[_c('strong',[_v("API")]),_v(" : "),_c('a',{attrs:{"href":"https://github.com/AY2425S1-CS2103-F12-4/tp/tree/master/src/main/java/seedu/address/storage/Storage.java"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Storage.java")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("The "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Storage")]),_v(" component,")])}
@@ -248,13 +248,13 @@ with(this){return _c('ul',[_c('li',[_v("If successful, the student's name is add
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User gives the command to add a student's name to the StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the input.")]),_v(" "),_c('li',[_v("System adds the student to the system.")]),_v(" "),_c('li',[_v("System adds the student name to the student profile.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message.\n"),_c('br'),_v("Use case ends.")])])}
+with(this){return _c('ol',[_c('li',[_v("User gives the command to add a student's name to the StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the input.")]),_v(" "),_c('li',[_v("System adds the student to the system.")]),_v(" "),_c('li',[_v("System adds the student name to the student profile.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message."),_c('br'),_v("\nUse case ends.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid name command format, with no special characters.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the name field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid name.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3b. User enters a duplicate name.")]),_v(" "),_c('ul',[_c('li',[_v("3b1. System displays an error message notifying that the name already exists in the system.\n"),_c('br'),_v("Use case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid name command format, with no special characters."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the name field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid name."),_c('br'),_v("\nUse case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("System: StudentManagerPro")])])}
@@ -281,13 +281,13 @@ with(this){return _c('ul',[_c('li',[_v("If successful, the student's email is ad
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User gives the command to add a student's email to a student's profile in the StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the input.")]),_v(" "),_c('li',[_v("System adds the email to the student profile in the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message.\n"),_c('br'),_v("Use case ends.")])])}
+with(this){return _c('ol',[_c('li',[_v("User gives the command to add a student's email to a student's profile in the StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the input.")]),_v(" "),_c('li',[_v("System adds the email to the student profile in the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message."),_c('br'),_v("\nUse case ends.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid email command format, with no special characters.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the email field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid email.\n"),_c('br'),_v("Use case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid email command format, with no special characters."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the email field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid email."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3b. User enters a duplicate email.")]),_v(" "),_c('ul',[_c('li',[_v("3b1. System displays an error message notifying that the email already exists in the system."),_c('br'),_v("\nUse case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("System: StudentManagerPro")])])}
@@ -314,13 +314,13 @@ with(this){return _c('ul',[_c('li',[_v("If successful, the student's register nu
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User gives the command to add a student's register number to a student's profile in the StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the input.")]),_v(" "),_c('li',[_v("System adds the register number to the student profile in the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message.\n"),_c('br'),_v("Use case ends.")])])}
+with(this){return _c('ol',[_c('li',[_v("User gives the command to add a student's register number to a student's profile in the StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the input.")]),_v(" "),_c('li',[_v("System adds the register number to the student profile in the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message."),_c('br'),_v("\nUse case ends.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid register number command format, with no\nspecial characters.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the register number field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid register number.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3b. User enters a duplicate register number.")]),_v(" "),_c('ul',[_c('li',[_v("3b1. System displays an error message notifying that the register number already exists in the system.\n"),_c('br'),_v("Use case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid register number command format, with no\nspecial characters."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the register number field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid register number."),_c('br'),_v("\nUse case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("System: StudentManagerPro")])])}
@@ -347,13 +347,13 @@ with(this){return _c('ul',[_c('li',[_v("If successful, the student's sex is adde
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User gives the command to add a student's sex to a student's profile in the StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the input.")]),_v(" "),_c('li',[_v("System adds the sex to the student profile in the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message.\n"),_c('br'),_v("Use case ends.")])])}
+with(this){return _c('ol',[_c('li',[_v("User gives the command to add a student's sex to a student's profile in the StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the input.")]),_v(" "),_c('li',[_v("System adds the sex to the student profile in the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message."),_c('br'),_v("\nUse case ends.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid sex command format, with no\nspecial characters.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the sex field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid sex.\n"),_c('br'),_v("Use case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid sex command format, with no\nspecial characters."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the sex field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid sex."),_c('br'),_v("\nUse case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("System: StudentManagerPro")])])}
@@ -380,13 +380,13 @@ with(this){return _c('ul',[_c('li',[_v("If successful, the student's address is 
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User gives the command to add a student's address to a student's profile in the StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the input.")]),_v(" "),_c('li',[_v("System adds the address to the student profile in the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message.\n"),_c('br'),_v("Use case ends.")])])}
+with(this){return _c('ol',[_c('li',[_v("User gives the command to add a student's address to a student's profile in the StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the input.")]),_v(" "),_c('li',[_v("System adds the address to the student profile in the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message."),_c('br'),_v("\nUse case ends.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid address command format, with only acceptable\nspecial characters.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the address field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid address.\n"),_c('br'),_v("Use case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid address command format, with only acceptable\nspecial characters."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the address field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid address."),_c('br'),_v("\nUse case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("System: StudentManagerPro")])])}
@@ -413,13 +413,13 @@ with(this){return _c('ul',[_c('li',[_v("If successful, the student's contact num
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User gives the command to add a student's contact number to a student's profile in the StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the input.")]),_v(" "),_c('li',[_v("System adds the contact number to the student profile in the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message.\n"),_c('br'),_v("Use case ends.")])])}
+with(this){return _c('ol',[_c('li',[_v("User gives the command to add a student's contact number to a student's profile in the StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the input.")]),_v(" "),_c('li',[_v("System adds the contact number to the student profile in the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message."),_c('br'),_v("\nUse case ends.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid contact number command format, with no\nspecial characters.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the contact number field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid contact number.\n"),_c('br'),_v("Use case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid contact number command format, with no\nspecial characters."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the contact number field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid contact number."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3b. User enters a duplicate contact number.")]),_v(" "),_c('ul',[_c('li',[_v("3b1. System displays an error message notifying that the contact number already exists in the system."),_c('br'),_v("\nUse case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("System: StudentManagerPro")])])}
@@ -446,13 +446,13 @@ with(this){return _c('ul',[_c('li',[_v("If successful, the student's emergency c
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User gives the command to add a student's emergency contact name to a student's profile in the StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the input.")]),_v(" "),_c('li',[_v("System adds the emergency contact name to the student profile in the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message.\n"),_c('br'),_v("Use case ends.")])])}
+with(this){return _c('ol',[_c('li',[_v("User gives the command to add a student's emergency contact name to a student's profile in the StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the input.")]),_v(" "),_c('li',[_v("System adds the emergency contact name to the student profile in the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message."),_c('br'),_v("\nUse case ends.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid emergency contact name command format, with no\nspecial characters.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the emergency contact name field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid emergency contact name.\n"),_c('br'),_v("Use case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid emergency contact name command format, with no\nspecial characters."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the emergency contact name field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid emergency contact name."),_c('br'),_v("\nUse case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("System: StudentManagerPro")])])}
@@ -479,13 +479,13 @@ with(this){return _c('ul',[_c('li',[_v("If successful, the student's emergency c
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User gives the command to add a student's emergency contact number to a student's profile in the StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the input.")]),_v(" "),_c('li',[_v("System adds the emergency contact number to the student profile in the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message.\n"),_c('br'),_v("Use case ends.")])])}
+with(this){return _c('ol',[_c('li',[_v("User gives the command to add a student's emergency contact number to a student's profile in the StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the input.")]),_v(" "),_c('li',[_v("System adds the emergency contact number to the student profile in the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message."),_c('br'),_v("\nUse case ends.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid emergency contact number command format, with no\nspecial characters.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the emergency contact number field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid emergency contact number.\n"),_c('br'),_v("Use case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid emergency contact number command format, with no\nspecial characters."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the emergency contact number field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid emergency contact number."),_c('br'),_v("\nUse case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("System: StudentManagerPro")])])}
@@ -512,13 +512,13 @@ with(this){return _c('ul',[_c('li',[_v("If successful, the student's class is ad
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User gives the command to add a student's class to a student's profile in the StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the input.")]),_v(" "),_c('li',[_v("System adds the class to the student profile in the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message.\n"),_c('br'),_v("Use case ends.")])])}
+with(this){return _c('ol',[_c('li',[_v("User gives the command to add a student's class to a student's profile in the StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the input.")]),_v(" "),_c('li',[_v("System adds the class to the student profile in the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message."),_c('br'),_v("\nUse case ends.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid class command format, with no\nspecial characters.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the class field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid class.\n"),_c('br'),_v("Use case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid class command format, with no\nspecial characters."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the class field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid class."),_c('br'),_v("\nUse case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("System: StudentManagerPro")])])}
@@ -545,13 +545,13 @@ with(this){return _c('ul',[_c('li',[_v("If successful, the student will be remov
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User gives the command to remove a student from the StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the input.")]),_v(" "),_c('li',[_v("System removes the student from the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message.\n"),_c('br'),_v("Use case ends.")])])}
+with(this){return _c('ol',[_c('li',[_v("User gives the command to remove a student from the StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the input.")]),_v(" "),_c('li',[_v("System removes the student from the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message."),_c('br'),_v("\nUse case ends.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid name command format, with no\nspecial characters.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the name field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid name.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3b. User enters a name that does not exist in the system.")]),_v(" "),_c('ul',[_c('li',[_v("3b1. System displays an error message to ask for a valid name of a student in the system.\n"),_c('br'),_v("Use case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid name command format, with no\nspecial characters."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the name field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid name."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3b. User enters a name that does not exist in the system.")]),_v(" "),_c('ul',[_c('li',[_v("3b1. System displays an error message to ask for a valid name of a student in the system."),_c('br'),_v("\nUse case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("System: StudentManagerPro")])])}
@@ -575,13 +575,13 @@ with(this){return _c('ul',[_c('li',[_v("If successful, the attendance record for
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User gives the command to add attendance for a student in StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input’s format.")]),_v(" "),_c('li',[_v("System validates the attendance data.")]),_v(" "),_c('li',[_v("System adds the attendance record to the student’s profile.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message.\n"),_c('br'),_v("Use case ends.")])])}
+with(this){return _c('ol',[_c('li',[_v("User gives the command to add attendance for a student in StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input’s format.")]),_v(" "),_c('li',[_v("System validates the attendance data.")]),_v(" "),_c('li',[_v("System adds the attendance record to the student’s profile.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message."),_c('br'),_v("\nUse case ends.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters in the attendance data.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message asking for valid attendance format.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the absent reason blank (indicating deletion of attendance).")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System deletes the attendance record for that entry, and displays a confirmation message.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3b. User enters absent date in an invalid format.")]),_v(" "),_c('ul',[_c('li',[_v("3b1. System displays an error message asking for a valid absent date format.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3c. User enters a date that does not exist (e.g., 30-02-2024).")]),_v(" "),_c('ul',[_c('li',[_v("3c1. System displays an error message asking for a valid absent date.\nUse case ends")])])]),_v(" "),_c('li',[_c('p',[_v("3d. User enters absent reason in an invalid format.")]),_v(" "),_c('ul',[_c('li',[_v("3d1. System displays an error message asking for a valid absent reason format.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3e. User tries to add attendance for a student that does not exist.")]),_v(" "),_c('ul',[_c('li',[_v("3e1. System displays an error message notifying that the student does not exist in the system.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3f. User tries to add multiple attendances for a student at one go.")]),_v(" "),_c('ul',[_c('li',[_v("3f1. System displays an error message notifying that input with multiple attendances is not allowed.")])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters in the attendance data.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message asking for valid attendance format."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the absent reason blank (indicating deletion of attendance).")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System deletes the attendance record for that entry, and displays a confirmation message."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3b. User enters absent date in an invalid format.")]),_v(" "),_c('ul',[_c('li',[_v("3b1. System displays an error message asking for a valid absent date format."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3c. User enters a date that does not exist (e.g., 30-02-2024).")]),_v(" "),_c('ul',[_c('li',[_v("3c1. System displays an error message asking for a valid absent date."),_c('br'),_v("\nUse case ends")])])]),_v(" "),_c('li',[_c('p',[_v("3d. User enters absent reason in an invalid format.")]),_v(" "),_c('ul',[_c('li',[_v("3d1. System displays an error message asking for a valid absent reason format."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3e. User tries to add attendance for a student that does not exist.")]),_v(" "),_c('ul',[_c('li',[_v("3e1. System displays an error message notifying that the student does not exist in the system."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3f. User tries to add multiple attendances for a student at one go.")]),_v(" "),_c('ul',[_c('li',[_v("3f1. System displays an error message notifying that input with multiple attendances is not allowed."),_c('br'),_v("\nUse case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("System: StudentManagerPro")])])}
@@ -605,13 +605,13 @@ with(this){return _c('ul',[_c('li',[_v("If successful, the exam is added for all
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User gives the command to add exam in StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the exam data.")]),_v(" "),_c('li',[_v("System adds the exam to every student currently in the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message.\n"),_c('br'),_v("Use case ends.")])])}
+with(this){return _c('ol',[_c('li',[_v("User gives the command to add exam in StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the exam data.")]),_v(" "),_c('li',[_v("System adds the exam to every student currently in the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message."),_c('br'),_v("\nUse case ends.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("2a. User enters invalid characters in the exam name.\n"),_c('ul',[_c('li',[_v("2a1. System displays an error message asking for valid exam name format, with only alphanumeric characters and spaces.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_v("3a. User tries to add an exam that already exists in the system.\n"),_c('ul',[_c('li',[_v("3a1. System displays an error message telling the user that the exam already exists.\n"),_c('br'),_v("Use case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters in the exam name.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message asking for valid exam name format, with only alphanumeric characters and spaces."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User tries to add an exam that already exists in the system.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message telling the user that the exam already exists."),_c('br'),_v("\nUse case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("System: StudentManagerPro")])])}
@@ -635,13 +635,13 @@ with(this){return _c('ul',[_c('li',[_v("If successful, the student's exam score 
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User gives the command to add the score for a particular exam for a student in StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the exam data.")]),_v(" "),_c('li',[_v("System adds the exam score to the specified exam in the student's profile.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message.\n"),_c('br'),_v("Use case ends.")])])}
+with(this){return _c('ol',[_c('li',[_v("User gives the command to add the score for a particular exam for a student in StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the exam data.")]),_v(" "),_c('li',[_v("System adds the exam score to the specified exam in the student's profile.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message."),_c('br'),_v("\nUse case ends.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("2a. User enters invalid characters in the exam name.\n"),_c('ul',[_c('li',[_v("2a1. System displays an error message asking for valid exam name format, with only alphanumeric characters and spaces.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_v("2b. User enters invalid characters in the exam score.\n"),_c('ul',[_c('li',[_v("2b1. System displays an error message asking for valid exam score format, an integer between 0 and 100.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_v("3a. User tries to add a score to an exam that does not exist.\n"),_c('ul',[_c('li',[_v("3a1. System displays an error message notifying that the exam does not exist in the system.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_v("3b. User tries to add a score to a student that does not exist.\n"),_c('ul',[_c('li',[_v("3b1. System displays an error message notifying that the student does not exist in the system.\n"),_c('br'),_v("Use case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters in the exam name.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message asking for valid exam name format, with only alphanumeric characters and spaces."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("2b. User enters invalid characters in the exam score.")]),_v(" "),_c('ul',[_c('li',[_v("2b1. System displays an error message asking for valid exam score format, an integer between 0 and 100."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User tries to add a score to an exam that does not exist.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message notifying that the exam does not exist in the system."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3b. User tries to add a score to an exam for a student that does not exist.")]),_v(" "),_c('ul',[_c('li',[_v("3b1. System displays an error message notifying that the student does not exist in the system."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3c. User tries to add a score to an exam for a student that is the same as is already recorded in the system for the same exam of the same student.")]),_v(" "),_c('ul',[_c('li',[_v("3b1. System displays an error message notifying that the exam score is not changed."),_c('br'),_v("\nUse case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("System: StudentManagerPro")])])}
@@ -665,13 +665,13 @@ with(this){return _c('ul',[_c('li',[_v("If successful, the submission is added f
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User gives the command to add submission in StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the submission data.")]),_v(" "),_c('li',[_v("System adds the submission to every student currently in the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message.\n"),_c('br'),_v("Use case ends.")])])}
+with(this){return _c('ol',[_c('li',[_v("User gives the command to add submission in StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the submission data.")]),_v(" "),_c('li',[_v("System adds the submission to every student currently in the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message."),_c('br'),_v("\nUse case ends.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("2a. User enters invalid characters in the submission name.\n"),_c('ul',[_c('li',[_v("2a1. System displays an error message asking for valid submission name format, with only alphanumeric characters and spaces.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_v("3a. User tries to add a submission that already exists in the system.\n"),_c('ul',[_c('li',[_v("3a1. System displays an error message telling the user that the submission already exists.\n"),_c('br'),_v("Use case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters in the submission name.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message asking for valid submission name format, with only alphanumeric characters and spaces."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User tries to add a submission that already exists in the system.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message telling the user that the submission already exists."),_c('br'),_v("\nUse case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("System: StudentManagerPro")])])}
@@ -695,13 +695,13 @@ with(this){return _c('ul',[_c('li',[_v("If successful, the student's submission 
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User gives the command to add the status for a particular submission for a student in StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the submission data.")]),_v(" "),_c('li',[_v("System adds the submission status to the specified submission in the student's profile.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message.\n"),_c('br'),_v("Use case ends.")])])}
+with(this){return _c('ol',[_c('li',[_v("User gives the command to add the status for a particular submission for a student in StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the submission data.")]),_v(" "),_c('li',[_v("System adds the submission status to the specified submission in the student's profile.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message."),_c('br'),_v("\nUse case ends.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("2a. User enters invalid characters in the submission name.\n"),_c('ul',[_c('li',[_v("2a1. System displays an error message asking for valid submission name format, with only alphanumeric characters and spaces.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_v("2b. User enters invalid characters in the submission status.\n"),_c('ul',[_c('li',[_v("2b1. System displays an error message asking for valid submission status format, \"Y\", \"N\" or \"NIL\".\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_v("3a. User tries to add a status to a submission that does not exist.\n"),_c('ul',[_c('li',[_v("3a1. System displays an error message notifying that the submission does not exist in the system.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_v("3b. User tries to add a status to a student that does not exist.\n"),_c('ul',[_c('li',[_v("3b1. System displays an error message notifying that the student does not exist in the system.\n"),_c('br'),_v("Use case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters in the submission name.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message asking for valid submission name format, with only alphanumeric characters and spaces."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("2b. User enters invalid characters in the submission status.")]),_v(" "),_c('ul',[_c('li',[_v("2b1. System displays an error message asking for valid submission status format, \"Y\", \"N\" or \"NIL\"."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User tries to add a status to a submission that does not exist.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message notifying that the submission does not exist in the system."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3b. User tries to add a status to a submission for a student that does not exist.")]),_v(" "),_c('ul',[_c('li',[_v("3b1. System displays an error message notifying that the student does not exist in the system."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3c. User tries to add a status to a submission for a student that is the same as is already recorded in the system for the same submission of the same student.")]),_v(" "),_c('ul',[_c('li',[_v("3b1. System displays an error message notifying that the submission status is not changed."),_c('br'),_v("\nUse case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("System: StudentManagerPro")])])}
@@ -725,13 +725,13 @@ with(this){return _c('ul',[_c('li',[_v("If successful, the submission is deleted
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User gives the command to delete submission in StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the submission data.")]),_v(" "),_c('li',[_v("System deletes the submission from every student currently in the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message.\n"),_c('br'),_v("Use case ends.")])])}
+with(this){return _c('ol',[_c('li',[_v("User gives the command to delete submission in StudentManagerPro.")]),_v(" "),_c('li',[_v("System validates the input's format.")]),_v(" "),_c('li',[_v("System validates the submission data.")]),_v(" "),_c('li',[_v("System deletes the submission from every student currently in the system.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message."),_c('br'),_v("\nUse case ends.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("2a. User enters invalid characters in the submission name.\n"),_c('ul',[_c('li',[_v("2a1. System displays an error message asking for valid submission name format, with only alphanumeric characters and spaces.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_v("3a. User tries to delete a submission that does not exist in the system.\n"),_c('ul',[_c('li',[_v("3a1. System displays an error message telling the user that the submission does not exist.\n"),_c('br'),_v("Use case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters in the submission name.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message asking for valid submission name format, with only alphanumeric characters and spaces."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User tries to delete a submission that does not exist in the system.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message telling the user that the submission does not exist."),_c('br'),_v("\nUse case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("System: StudentManagerPro")])])}
@@ -755,13 +755,13 @@ with(this){return _c('ul',[_c('li',[_v("If successful, student list displayed wi
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User gives the command to sort students based on a particular attribute.")]),_v(" "),_c('li',[_v("System validates the input attribute.")]),_v(" "),_c('li',[_v("System sorts the displayed list based on the attribute.")]),_v(" "),_c('li',[_v("System displays the sorted list.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message.\n"),_c('br'),_v("Use case ends.")])])}
+with(this){return _c('ol',[_c('li',[_v("User gives the command to sort students based on a particular attribute.")]),_v(" "),_c('li',[_v("System validates the input attribute.")]),_v(" "),_c('li',[_v("System sorts the displayed list based on the attribute.")]),_v(" "),_c('li',[_v("System displays the sorted list.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message."),_c('br'),_v("\nUse case ends.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("2a. System detects an invalid attribute.\n"),_c('ul',[_c('li',[_v("2a1. System displays an error message asking for valid input.\n"),_c('br'),_v("Use case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_v("2a. System detects an invalid attribute.\n"),_c('ul',[_c('li',[_v("2a1. System displays an error message asking for valid input."),_c('br'),_v("\nUse case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("System: StudentManagerPro")])])}
@@ -785,13 +785,13 @@ with(this){return _c('ul',[_c('li',[_v("If successful, student list displayed wi
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User gives the command to filter students with specific predicates by one or multiple attributes.")]),_v(" "),_c('li',[_v("System validates the input predicates.")]),_v(" "),_c('li',[_v("System filters the student list based on the provided predicates.")]),_v(" "),_c('li',[_v("System displays the filtered list.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message stating the number of filtered students.\n"),_c('br'),_v("Use case ends.")])])}
+with(this){return _c('ol',[_c('li',[_v("User gives the command to filter students with specific predicates by one or multiple attributes.")]),_v(" "),_c('li',[_v("System validates the input predicates.")]),_v(" "),_c('li',[_v("System filters the student list based on the provided predicates.")]),_v(" "),_c('li',[_v("System displays the filtered list.")]),_v(" "),_c('li',[_v("System confirms the success by displaying a success message stating the number of filtered students."),_c('br'),_v("\nUse case ends.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("1a. User inputs a filter command that is incomplete with no prefixes mentioned.\n"),_c('ul',[_c('li',[_v("1a1. System displays an error message showing the correct format of the filter command.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_v("1b. User tries to filter by a predicate that is not supported by the filter functionality.\n"),_c('ul',[_c('li',[_v("1b1. System displays an error message that shows the attributes supported by the filter command and corresponding prefixes.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_v("2a. System detects an empty predicate value after the attribute prefix.\n"),_c('ul',[_c('li',[_v("2a1. System displays an error message stating that predicates cannot be empty.\n"),_c('br'),_v("Use case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. User inputs a filter command that is incomplete with no prefixes mentioned.")]),_v(" "),_c('ul',[_c('li',[_v("1a1. System displays an error message showing the correct format of the filter command."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("1b. User tries to filter by a predicate that is not supported by the filter functionality.")]),_v(" "),_c('ul',[_c('li',[_v("1b1. System displays an error message that shows the attributes supported by the filter command and corresponding prefixes."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("2a. System detects an empty predicate value after the attribute prefix.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message stating that predicates cannot be empty."),_c('br'),_v("\nUse case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"non-functional-requirements"}},[_v("Non-Functional Requirements"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#non-functional-requirements","onclick":"event.stopPropagation()"}})])}
@@ -860,7 +860,7 @@ with(this){return _c('ol',[_c('li',[_c('p',[_v("Deleting attendance for a studen
 with(this){return _c('h3',{attrs:{"id":"adding-exam-for-students"}},[_v("Adding exam for students"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#adding-exam-for-students","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("Adding exam for all students currently in the list")]),_v(" "),_c('ol',[_c('li',[_c('p',[_v("Test case: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addExam ex/Midterm")]),_c('br'),_v("\nExpected: Exam with exam name Midterm is added to all students in the addressbook. Confirmation message shown in the status message.")])]),_v(" "),_c('li',[_c('p',[_v("Test case: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addExam ex/Midterm#")]),_c('br'),_v("\nExpected: No exam is added. Error details shown in the status message.")])]),_v(" "),_c('li',[_c('p',[_v("Other incorrect addExam commands to try:"),_c('br'),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addExam")]),_c('br'),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addExam ex/")]),_c('br'),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addExam ex/#@*")]),_c('br'),_v("\nExpected: Similar to previous.")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("Adding exam for all students currently in the list")]),_v(" "),_c('ol',[_c('li',[_c('p',[_v("Test case: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addExam ex/Midterm")]),_c('br'),_v("\nExpected: Exam with exam name Midterm is added to all students in the student list. Confirmation message shown in the status message.")])]),_v(" "),_c('li',[_c('p',[_v("Test case: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addExam ex/Midterm#")]),_c('br'),_v("\nExpected: No exam is added. Error details shown in the status message.")])]),_v(" "),_c('li',[_c('p',[_v("Other incorrect addExam commands to try:"),_c('br'),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addExam")]),_c('br'),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addExam ex/")]),_c('br'),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addExam ex/#@*")]),_c('br'),_v("\nExpected: Similar to previous.")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"adding-exam-score-for-a-student"}},[_v("Adding exam score for a student"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#adding-exam-score-for-a-student","onclick":"event.stopPropagation()"}})])}
@@ -872,13 +872,13 @@ with(this){return _c('ol',[_c('li',[_c('p',[_v("Adding exam score for a student 
 with(this){return _c('h3',{attrs:{"id":"deleting-exam-for-students"}},[_v("Deleting exam for students"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#deleting-exam-for-students","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("Deleting exam for all students currently in the list")]),_v(" "),_c('ol',[_c('li',[_c('p',[_v("Prerequisites: The test for adding exam should be done first as the students must have an existing exam to be deleted.")])]),_v(" "),_c('li',[_c('p',[_v("Test case: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("deleteExam ex/Midterm")]),_c('br'),_v("\nExpected: Exam with exam name Midterm is deleted from all students in the addressbook. Confirmation message shown in the status message.")])]),_v(" "),_c('li',[_c('p',[_v("Test case: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("deleteExam ex/Midterm#")]),_c('br'),_v("\nExpected: No exam is deleted. Error details shown in the status message.")])]),_v(" "),_c('li',[_c('p',[_v("Other incorrect deleteExam commands to try:"),_c('br'),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("deleteExam")]),_c('br'),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("deleteExam ex/")]),_c('br'),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("deleteExam ex/#@*")]),_c('br'),_v("\nExpected: Similar to previous.")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("Deleting exam for all students currently in the list")]),_v(" "),_c('ol',[_c('li',[_c('p',[_v("Prerequisites: The test for adding exam should be done first as the students must have an existing exam to be deleted.")])]),_v(" "),_c('li',[_c('p',[_v("Test case: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("deleteExam ex/Midterm")]),_c('br'),_v("\nExpected: Exam with exam name Midterm is deleted from all students in the student list. Confirmation message shown in the status message.")])]),_v(" "),_c('li',[_c('p',[_v("Test case: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("deleteExam ex/Midterm#")]),_c('br'),_v("\nExpected: No exam is deleted. Error details shown in the status message.")])]),_v(" "),_c('li',[_c('p',[_v("Other incorrect deleteExam commands to try:"),_c('br'),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("deleteExam")]),_c('br'),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("deleteExam ex/")]),_c('br'),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("deleteExam ex/#@*")]),_c('br'),_v("\nExpected: Similar to previous.")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"adding-submission-for-students"}},[_v("Adding submission for students"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#adding-submission-for-students","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("Adding submission for all students currently in the list")]),_v(" "),_c('ol',[_c('li',[_c('p',[_v("Test case: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addSubmission sm/Assignment 1")]),_c('br'),_v("\nExpected: Submission with submission name Assignment 1 is added to all students in the addressbook. Confirmation message shown in the status message.")])]),_v(" "),_c('li',[_c('p',[_v("Test case: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addSubmission sm/Assignment #1")]),_c('br'),_v("\nExpected: No submission is added. Error details shown in the status message.")])]),_v(" "),_c('li',[_c('p',[_v("Other incorrect addSubmission commands to try:"),_c('br'),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addSubmission")]),_c('br'),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addSubmission sm/")]),_c('br'),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addSubmission sm/#@*")]),_c('br'),_v("\nExpected: Similar to previous.")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("Adding submission for all students currently in the list")]),_v(" "),_c('ol',[_c('li',[_c('p',[_v("Test case: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addSubmission sm/Assignment 1")]),_c('br'),_v("\nExpected: Submission with submission name Assignment 1 is added to all students in the student list. Confirmation message shown in the status message.")])]),_v(" "),_c('li',[_c('p',[_v("Test case: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addSubmission sm/Assignment #1")]),_c('br'),_v("\nExpected: No submission is added. Error details shown in the status message.")])]),_v(" "),_c('li',[_c('p',[_v("Other incorrect addSubmission commands to try:"),_c('br'),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addSubmission")]),_c('br'),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addSubmission sm/")]),_c('br'),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addSubmission sm/#@*")]),_c('br'),_v("\nExpected: Similar to previous.")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"adding-submission-status-for-a-student"}},[_v("Adding submission status for a student"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#adding-submission-status-for-a-student","onclick":"event.stopPropagation()"}})])}
@@ -917,6 +917,6 @@ with(this){return _c('h2',{attrs:{"id":"appendix-effort"}},[_c('strong',[_v("App
 with(this){return _c('ul',[_c('li',[_v("The project required a significant amount of effort and focus to implement the new features.")]),_v(" "),_c('li',[_v("There were some challenges along the way when we did not know how to implement specific features such as filter and sort.")]),_v(" "),_c('li',[_v("It was also quite challenging to add new attributes and represent them as tables in the GUI, such as exams, submissions, and attendance.")]),_v(" "),_c('li',[_v("While AB3 deals with simple attributes of a person, we had to include attributes that were more complex and tailored for our application use and needs, thus requiring us to store more non-trivial data for every student.")]),_v(" "),_c('li',[_v("Some achievements of the project include learning the workflows of having multiple developers work on the same product and managing each other's changes.")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Tue, 12 Nov 2024, 0:07:21 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Tue, 12 Nov 2024, 0:11:41 GMT+8]")])])])}
 }];
   
