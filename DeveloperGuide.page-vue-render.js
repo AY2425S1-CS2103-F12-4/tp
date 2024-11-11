@@ -287,7 +287,7 @@ with(this){return _c('ol',[_c('li',[_v("User gives the command to add a student'
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid email command format, with no special characters.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the email field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid email.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3b. User enters a duplicate email.")]),_v(" "),_c('ul',[_c('li',[_v("3b1. System displays an error message notifying that the email already exists in the system.\n"),_c('br'),_v("Use case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid email command format, with no special characters.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the email field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid email.\n"),_c('br'),_v("Use case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("System: StudentManagerPro")])])}
@@ -419,7 +419,7 @@ with(this){return _c('ol',[_c('li',[_v("User gives the command to add a student'
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid contact number command format, with no\nspecial characters.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the contact number field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid contact number.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3b. User enters a duplicate contact number.")]),_v(" "),_c('ul',[_c('li',[_v("3b1. System displays an error message notifying that the contact number already exists in the system.\n"),_c('br'),_v("Use case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. User enters invalid characters.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays an error message to ask for a valid contact number command format, with no\nspecial characters.\n"),_c('br'),_v("Use case ends.")])])]),_v(" "),_c('li',[_c('p',[_v("3a. User leaves the contact number field empty.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System displays an error message to ask for a valid contact number.\n"),_c('br'),_v("Use case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("System: StudentManagerPro")])])}
@@ -917,6 +917,6 @@ with(this){return _c('h2',{attrs:{"id":"appendix-effort"}},[_c('strong',[_v("App
 with(this){return _c('ul',[_c('li',[_v("The project required a significant amount of effort and focus to implement the new features.")]),_v(" "),_c('li',[_v("There were some challenges along the way when we did not know how to implement specific features such as filter and sort.")]),_v(" "),_c('li',[_v("It was also quite challenging to add new attributes and represent them as tables in the GUI, such as exams, submissions, and attendance.")]),_v(" "),_c('li',[_v("While AB3 deals with simple attributes of a person, we had to include attributes that were more complex and tailored for our application use and needs, thus requiring us to store more non-trivial data for every student.")]),_v(" "),_c('li',[_v("Some achievements of the project include learning the workflows of having multiple developers work on the same product and managing each other's changes.")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Mon, 11 Nov 2024, 21:29:46 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Mon, 11 Nov 2024, 22:36:35 GMT+8]")])])])}
 }];
   
