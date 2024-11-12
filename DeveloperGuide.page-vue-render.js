@@ -896,7 +896,7 @@ with(this){return _c('h2',{attrs:{"id":"appendix-planned-enhancements"}},[_c('st
 with(this){return _c('h3',{attrs:{"id":"ui"}},[_v("Ui"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#ui","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("Ui can be adjusted such that long names and phone numbers will not be truncated when added into StudentManagerPro.")]),_v(" "),_c('li',[_v("Update help command to show a command summary instead of a link to the UG.")])])}
+with(this){return _c('ul',[_c('li',[_v("Ui can be adjusted such that long names and phone numbers will not be truncated when added into StudentManagerPro.")])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"sex"}},[_v("Sex"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#sex","onclick":"event.stopPropagation()"}})])}
@@ -920,7 +920,7 @@ with(this){return _c('ul',[_c('li',[_v("Combine "),_c('code',{pre:true,attrs:{"c
 with(this){return _c('h3',{attrs:{"id":"filter"}},[_v("Filter"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#filter","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("Allow filtering by phone numbers using predicates less than 3 digits long.")])])}
+with(this){return _c('ul',[_c('li',[_v("Allow filtering by phone numbers using predicates less than 3 digits long.")]),_v(" "),_c('li',[_v("Allow filtering for exact multi-word addresses. For example, using "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("filter a/Block 30 Geylang")]),_v(" will return only students with an address that exactly matches "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Block 30 Geylang")]),_v(" rather than returning partial matches for individual words like "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Block")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("30")]),_v(", or "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Geylang")])])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"sort"}},[_v("Sort"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#sort","onclick":"event.stopPropagation()"}})])}
@@ -947,6 +947,6 @@ with(this){return _c('h2',{attrs:{"id":"appendix-effort"}},[_c('strong',[_v("App
 with(this){return _c('ul',[_c('li',[_v("The project required a significant amount of effort and focus to implement the new features.")]),_v(" "),_c('li',[_v("There were some challenges along the way when we did not know how to implement specific features such as filter and sort.")]),_v(" "),_c('li',[_v("It was also quite challenging to add new attributes and represent them as tables in the GUI, such as exams, submissions, and attendance.")]),_v(" "),_c('li',[_v("While AB3 deals with simple attributes of a person, we had to include attributes that were more complex and tailored for our application use and needs, thus requiring us to store more non-trivial data for every student.")]),_v(" "),_c('li',[_v("Some achievements of the project include learning the workflows of having multiple developers work on the same product and managing each other's changes.")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Tue, 12 Nov 2024, 3:23:00 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Tue, 12 Nov 2024, 12:01:06 GMT+8]")])])])}
 }];
   
